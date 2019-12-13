@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" id="BL9-qg-Lp9" customClass="AlunoFrequenciaView" customModule="SEDProfessor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="310" height="105"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 - NOME ALUNO" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="ZA0-58-z2Q">
+                    <rect key="frame" x="5" y="10" width="259" height="16"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="30" translatesAutoresizingMaskIntoConstraints="NO" id="lFu-OP-jOO" customClass="CustomLabel" customModule="SEDProfessor" customModuleProvider="target">
+                    <rect key="frame" x="272" y="10" width="30" height="30"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="Pho-fF-hkk"/>
+                        <constraint firstAttribute="height" constant="30" id="hSJ-ad-QTv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FALTAS NO BIMESTRE:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vvx-nA-Yhe">
+                    <rect key="frame" x="5" y="61" width="131" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="WHu-FJ-PX0"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="S9R-5B-NK5">
+                    <rect key="frame" x="138" y="61" width="9" height="16"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FALTAS NO ANO:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="si1-za-2gN">
+                    <rect key="frame" x="5" y="79" width="98" height="16"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="UuS-eV-j0T"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="9p5-SN-sGI">
+                    <rect key="frame" x="138" y="79" width="9" height="16"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lyz-Aj-TqY" customClass="CustomButton" customModule="SEDProfessor" customModuleProvider="target">
+                    <rect key="frame" x="200" y="61" width="30" height="30"/>
+                    <color key="backgroundColor" red="0.7379145622253418" green="0.28574928641319275" blue="0.30106437206268311" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="MEf-IZ-IE3"/>
+                        <constraint firstAttribute="height" constant="30" id="WgL-ha-D8W"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                    <state key="normal" title="F">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="btnCLickWithSender:" destination="BL9-qg-Lp9" eventType="touchUpInside" id="Am7-yQ-41Z"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n5h-cM-J5G" customClass="CustomButton" customModule="SEDProfessor" customModuleProvider="target">
+                    <rect key="frame" x="238" y="61" width="30" height="30"/>
+                    <color key="backgroundColor" red="0.27058823529999998" green="0.60392156860000001" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="Fiy-Vh-ecB"/>
+                        <constraint firstAttribute="height" constant="30" id="I6t-vb-ZH5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                    <state key="normal" title="C">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="btnCLickWithSender:" destination="BL9-qg-Lp9" eventType="touchUpInside" id="v3P-JF-935"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a2z-GR-pXf" customClass="CustomButton" customModule="SEDProfessor" customModuleProvider="target">
+                    <rect key="frame" x="162" y="61" width="30" height="30"/>
+                    <color key="backgroundColor" red="0.91765439510345459" green="0.73261493444442749" blue="0.060082972049713135" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="Xkk-bR-hCj"/>
+                        <constraint firstAttribute="height" constant="30" id="nRQ-Af-ICi"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                    <state key="normal" title="N">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="15"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="btnCLickWithSender:" destination="BL9-qg-Lp9" eventType="touchUpInside" id="WMF-qs-XpM"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <color key="tintColor" red="0.28235294119999998" green="0.59999999999999998" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="S9R-5B-NK5" firstAttribute="centerY" secondItem="vvx-nA-Yhe" secondAttribute="centerY" id="4VK-I1-kEr"/>
+                <constraint firstItem="ZA0-58-z2Q" firstAttribute="top" secondItem="BL9-qg-Lp9" secondAttribute="top" constant="10" id="8Fa-M6-L6j"/>
+                <constraint firstAttribute="trailing" secondItem="lFu-OP-jOO" secondAttribute="trailing" constant="8" id="AKq-Vy-6WL"/>
+                <constraint firstItem="n5h-cM-J5G" firstAttribute="leading" secondItem="Lyz-Aj-TqY" secondAttribute="trailing" constant="8" id="EV5-KS-pdm"/>
+                <constraint firstItem="ZA0-58-z2Q" firstAttribute="leading" secondItem="BL9-qg-Lp9" secondAttribute="leading" constant="5" id="GeL-Rq-B82"/>
+                <constraint firstItem="vvx-nA-Yhe" firstAttribute="top" secondItem="ZA0-58-z2Q" secondAttribute="bottom" constant="35" id="Igq-tT-FJg"/>
+                <constraint firstItem="9p5-SN-sGI" firstAttribute="leading" secondItem="S9R-5B-NK5" secondAttribute="leading" id="JH9-NV-zWe"/>
+                <constraint firstItem="lFu-OP-jOO" firstAttribute="top" secondItem="ZA0-58-z2Q" secondAttribute="top" id="NAW-6O-IrZ"/>
+                <constraint firstItem="n5h-cM-J5G" firstAttribute="top" secondItem="Lyz-Aj-TqY" secondAttribute="top" id="PSv-Ks-VeH"/>
+                <constraint firstItem="vvx-nA-Yhe" firstAttribute="leading" secondItem="BL9-qg-Lp9" secondAttribute="leading" constant="5" id="PVk-qk-pQW"/>
+                <constraint firstItem="a2z-GR-pXf" firstAttribute="top" secondItem="S9R-5B-NK5" secondAttribute="top" id="Pys-Lp-4UP"/>
+                <constraint firstItem="si1-za-2gN" firstAttribute="top" secondItem="vvx-nA-Yhe" secondAttribute="bottom" constant="2" id="WzS-5h-kdN"/>
+                <constraint firstItem="lFu-OP-jOO" firstAttribute="leading" secondItem="ZA0-58-z2Q" secondAttribute="trailing" constant="8" id="aPe-Bg-aKb"/>
+                <constraint firstItem="Lyz-Aj-TqY" firstAttribute="top" secondItem="a2z-GR-pXf" secondAttribute="top" id="hYz-Bb-pwD"/>
+                <constraint firstItem="Lyz-Aj-TqY" firstAttribute="leading" secondItem="a2z-GR-pXf" secondAttribute="trailing" constant="8" id="jTm-jL-qB2"/>
+                <constraint firstItem="S9R-5B-NK5" firstAttribute="leading" secondItem="vvx-nA-Yhe" secondAttribute="trailing" constant="2" id="qzS-oC-9JC"/>
+                <constraint firstItem="si1-za-2gN" firstAttribute="leading" secondItem="BL9-qg-Lp9" secondAttribute="leading" constant="5" id="tW6-0W-3g1"/>
+                <constraint firstItem="9p5-SN-sGI" firstAttribute="centerY" secondItem="si1-za-2gN" secondAttribute="centerY" id="vSg-uP-zAz"/>
+                <constraint firstItem="a2z-GR-pXf" firstAttribute="leading" secondItem="S9R-5B-NK5" secondAttribute="trailing" constant="15" id="zbe-hn-TOp"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="5"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="compareceu" destination="n5h-cM-J5G" id="Y6k-lU-6Eo"/>
+                <outlet property="faltasAno" destination="9p5-SN-sGI" id="neS-Ig-Sec"/>
+                <outlet property="faltasBimestre" destination="S9R-5B-NK5" id="lbE-JK-PDD"/>
+                <outlet property="faltou" destination="Lyz-Aj-TqY" id="GRa-pD-f7c"/>
+                <outlet property="naoAplica" destination="a2z-GR-pXf" id="xfB-z5-akR"/>
+                <outlet property="nome" destination="ZA0-58-z2Q" id="Hbl-7I-m8W"/>
+                <outlet property="presenca" destination="lFu-OP-jOO" id="SgK-Fc-mL8"/>
+            </connections>
+            <point key="canvasLocation" x="-106" y="159.5"/>
+        </view>
+    </objects>
+</document>

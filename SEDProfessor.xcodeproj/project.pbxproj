@@ -1,0 +1,1597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0201FBCE2345850600CB9ED3 /* CalendarioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201FBCD2345850600CB9ED3 /* CalendarioViewController.swift */; };
+		0201FBD023458B0900CB9ED3 /* CalendarioDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0201FBCF23458B0900CB9ED3 /* CalendarioDelegate.swift */; };
+		0253FC64239EE95300C4A8B2 /* VersaoAppRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0253FC63239EE95300C4A8B2 /* VersaoAppRequest.swift */; };
+		0261091F232B25A000FE5A6A /* DiaConflito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0261091E232B25A000FE5A6A /* DiaConflito.swift */; };
+		02610921232B25FF00FE5A6A /* HorarioConflito.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02610920232B25FF00FE5A6A /* HorarioConflito.swift */; };
+		02610923232B26E400FE5A6A /* DiaConflitoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02610922232B26E400FE5A6A /* DiaConflitoDao.swift */; };
+		02610927232B2CE000FE5A6A /* HorarioConflitoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02610926232B2CE000FE5A6A /* HorarioConflitoDao.swift */; };
+		027CED212337C7BB00BB9277 /* ConflitosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027CED202337C7BB00BB9277 /* ConflitosViewController.swift */; };
+		029B62E32347AE78006EE4CC /* VKCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029B62E22347AE78006EE4CC /* VKCheckbox.swift */; };
+		02E34CB5233471DD0036C18D /* HorarioFrequenciaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E34CB4233471DD0036C18D /* HorarioFrequenciaTableViewCell.swift */; };
+		02E34CB82334769B0036C18D /* ExcluirFrequenciaRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E34CB72334769B0036C18D /* ExcluirFrequenciaRequest.swift */; };
+		02F85787235FEDD200267FB7 /* HorariosRegistroAulaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F85786235FEDD200267FB7 /* HorariosRegistroAulaViewController.swift */; };
+		02F85789235FF02C00267FB7 /* HorariosRegistroAulaDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F85788235FF02C00267FB7 /* HorariosRegistroAulaDelegate.swift */; };
+		02F8578D235FF24F00267FB7 /* HorarioRegistroAulaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02F8578C235FF24F00267FB7 /* HorarioRegistroAulaTableViewCell.swift */; };
+		8512199A32547661B62BF08D /* Pods_SEDProfessor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14CFC7B1B53CEC58E828350 /* Pods_SEDProfessor.framework */; };
+		CA204CAD222FDD5900F6C06B /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA204CAC222FDD5900F6C06B /* LoginRequest.swift */; };
+		CA204CAF222FE89B00F6C06B /* BuscarTurmasRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA204CAE222FE89B00F6C06B /* BuscarTurmasRequest.swift */; };
+		CA3EB6F221A87E5B00EA0F30 /* HorariosFrequenciaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3EB6F121A87E5B00EA0F30 /* HorariosFrequenciaViewController.swift */; };
+		CA3EB6F421A87F9B00EA0F30 /* HorariosFrequenciaDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA3EB6F321A87F9B00EA0F30 /* HorariosFrequenciaDelegate.swift */; };
+		CA44AA6F233E764800DB215A /* HorarioFrequencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44AA6E233E764800DB215A /* HorarioFrequencia.swift */; };
+		CA44AA71233E769600DB215A /* HorarioFrequenciaDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA44AA70233E769600DB215A /* HorarioFrequenciaDao.swift */; };
+		CA469A79221DE2E000D3D17A /* DiaFrequencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA469A78221DE2E000D3D17A /* DiaFrequencia.swift */; };
+		CA469A7B221DE45B00D3D17A /* DiaFrequenciaDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA469A7A221DE45B00D3D17A /* DiaFrequenciaDao.swift */; };
+		CA592D6E232840560044AE3F /* TurmaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA592D6D232840560044AE3F /* TurmaTableViewCell.xib */; };
+		CA78D7412217353F00A0E728 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA78D7402217353F00A0E728 /* ViewController.swift */; };
+		CA7A621422021DDD00F89A1E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA7A621322021DDC00F89A1E /* GoogleService-Info.plist */; };
+		CA871C9F21C911E3009CEBDF /* BimestresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA871C9E21C911E3009CEBDF /* BimestresViewController.swift */; };
+		CA871CA121C922D4009CEBDF /* BimestreDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA871CA021C922D4009CEBDF /* BimestreDelegate.swift */; };
+		CA871CA321C92B44009CEBDF /* AvaliacoesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA871CA221C92B44009CEBDF /* AvaliacoesViewController.swift */; };
+		CA871CA521C92DA0009CEBDF /* AvaliacoesDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA871CA421C92DA0009CEBDF /* AvaliacoesDelegate.swift */; };
+		CAB12EC2219B4E1700BAF5EE /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB12EC1219B4E1700BAF5EE /* Localization.swift */; };
+		CAC4BFF0231F00CF00F0747F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC4BFEF231F00CF00F0747F /* MenuViewController.swift */; };
+		CAC875A82192068E00EF7E96 /* BimestreDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8751D2192068C00EF7E96 /* BimestreDao.swift */; };
+		CAC875A92192068E00EF7E96 /* DisciplinaDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8751E2192068C00EF7E96 /* DisciplinaDao.swift */; };
+		CAC875AA2192068E00EF7E96 /* DiaLetivoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8751F2192068C00EF7E96 /* DiaLetivoDao.swift */; };
+		CAC875AB2192068E00EF7E96 /* FaltaAlunoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875202192068C00EF7E96 /* FaltaAlunoDao.swift */; };
+		CAC875AC2192068E00EF7E96 /* GrupoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875212192068C00EF7E96 /* GrupoDao.swift */; };
+		CAC875AD2192068E00EF7E96 /* NotaAlunoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875222192068C00EF7E96 /* NotaAlunoDao.swift */; };
+		CAC875AE2192068E00EF7E96 /* HabilidadeDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875232192068C00EF7E96 /* HabilidadeDao.swift */; };
+		CAC875AF2192068E00EF7E96 /* AulaDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875242192068C00EF7E96 /* AulaDao.swift */; };
+		CAC875B02192068E00EF7E96 /* AlunoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875252192068C00EF7E96 /* AlunoDao.swift */; };
+		CAC875B12192068E00EF7E96 /* FechamentoAlunoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875262192068C00EF7E96 /* FechamentoAlunoDao.swift */; };
+		CAC875B22192068E00EF7E96 /* FrequenciaDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875272192068C00EF7E96 /* FrequenciaDao.swift */; };
+		CAC875B42192068E00EF7E96 /* TotalFaltasAlunoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875292192068C00EF7E96 /* TotalFaltasAlunoDao.swift */; };
+		CAC875B52192068E00EF7E96 /* FechamentoTurmaDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8752A2192068C00EF7E96 /* FechamentoTurmaDao.swift */; };
+		CAC875B62192068E00EF7E96 /* TipoFechamentoBimestreDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8752B2192068C00EF7E96 /* TipoFechamentoBimestreDao.swift */; };
+		CAC875B72192068E00EF7E96 /* TurmaDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8752C2192068C00EF7E96 /* TurmaDao.swift */; };
+		CAC875B92192068E00EF7E96 /* ConteudoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8752E2192068C00EF7E96 /* ConteudoDao.swift */; };
+		CAC875BA2192068E00EF7E96 /* CurriculoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8752F2192068C00EF7E96 /* CurriculoDao.swift */; };
+		CAC875BB2192068E00EF7E96 /* AverageDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875302192068C00EF7E96 /* AverageDao.swift */; };
+		CAC875BC2192068E00EF7E96 /* RegistroAulaDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875312192068C00EF7E96 /* RegistroAulaDao.swift */; };
+		CAC875BD2192068E00EF7E96 /* AvaliacaoDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875322192068C00EF7E96 /* AvaliacaoDao.swift */; };
+		CAC875BE2192068E00EF7E96 /* UsuarioDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875332192068C00EF7E96 /* UsuarioDao.swift */; };
+		CAC875BF2192068E00EF7E96 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875342192068C00EF7E96 /* MenuItem.swift */; };
+		CAC875C02192068E00EF7E96 /* FechamentoBimestreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875362192068C00EF7E96 /* FechamentoBimestreViewController.swift */; };
+		CAC875C12192068E00EF7E96 /* TurmasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875372192068C00EF7E96 /* TurmasViewController.swift */; };
+		CAC875C22192068E00EF7E96 /* FechamentoListaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875382192068C00EF7E96 /* FechamentoListaViewController.swift */; };
+		CAC875C32192068E00EF7E96 /* NovaAvaliacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875392192068C00EF7E96 /* NovaAvaliacaoViewController.swift */; };
+		CAC875C42192068E00EF7E96 /* RegistroAulaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8753A2192068C00EF7E96 /* RegistroAulaViewController.swift */; };
+		CAC875C52192068E00EF7E96 /* FrequenciaLancamentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8753B2192068C00EF7E96 /* FrequenciaLancamentoViewController.swift */; };
+		CAC875C72192068E00EF7E96 /* AverageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8753D2192068C00EF7E96 /* AverageTableViewCell.swift */; };
+		CAC875C82192068E00EF7E96 /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8753E2192068C00EF7E96 /* UserTableViewController.swift */; };
+		CAC875CA2192068E00EF7E96 /* AlunosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875402192068C00EF7E96 /* AlunosViewController.swift */; };
+		CAC875CB2192068E00EF7E96 /* NotasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875412192068C00EF7E96 /* NotasViewController.swift */; };
+		CAC875CC2192068E00EF7E96 /* WeightedAverageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875422192068C00EF7E96 /* WeightedAverageTableViewCell.swift */; };
+		CAC875CD2192068E00EF7E96 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875432192068C00EF7E96 /* LoginViewController.swift */; };
+		CAC875CE2192068E00EF7E96 /* DisciplinasIniciaisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875442192068C00EF7E96 /* DisciplinasIniciaisViewController.swift */; };
+		CAC875CF2192068E00EF7E96 /* AvaliacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875452192068C00EF7E96 /* AvaliacaoViewController.swift */; };
+		CAC875D02192068E00EF7E96 /* DetalhesAlunoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875462192068C00EF7E96 /* DetalhesAlunoController.swift */; };
+		CAC875D12192068E00EF7E96 /* AverageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875472192068C00EF7E96 /* AverageViewController.swift */; };
+		CAC875D22192068E00EF7E96 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875482192068C00EF7E96 /* NavigationController.swift */; };
+		CAC875D32192068E00EF7E96 /* FrequenciaConsultaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875492192068C00EF7E96 /* FrequenciaConsultaViewController.swift */; };
+		CAC875D42192068E00EF7E96 /* AvaliacaoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8754C2192068C00EF7E96 /* AvaliacaoTableViewCell.swift */; };
+		CAC875D52192068E00EF7E96 /* BimestreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8754D2192068C00EF7E96 /* BimestreCollectionViewCell.swift */; };
+		CAC875D62192068E00EF7E96 /* FrequenciaConsultaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8754E2192068C00EF7E96 /* FrequenciaConsultaTableViewCell.swift */; };
+		CAC875D72192068E00EF7E96 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8754F2192068C00EF7E96 /* HomeCollectionViewCell.swift */; };
+		CAC875D82192068E00EF7E96 /* TurmaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875502192068C00EF7E96 /* TurmaTableViewCell.swift */; };
+		CAC875D92192068E00EF7E96 /* ConteudoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875512192068C00EF7E96 /* ConteudoTableViewCell.swift */; };
+		CAC875DA2192068E00EF7E96 /* FechamentoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875522192068C00EF7E96 /* FechamentoTableViewCell.swift */; };
+		CAC875DB2192068E00EF7E96 /* AvaliacaoListaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875532192068C00EF7E96 /* AvaliacaoListaTableViewCell.swift */; };
+		CAC875DC2192068E00EF7E96 /* AlunoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875542192068C00EF7E96 /* AlunoTableViewCell.swift */; };
+		CAC875DE2192068E00EF7E96 /* DetalhesAlunoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875562192068C00EF7E96 /* DetalhesAlunoTableViewCell.swift */; };
+		CAC875DF2192068E00EF7E96 /* AverageHeaderViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875572192068C00EF7E96 /* AverageHeaderViewTableViewCell.swift */; };
+		CAC875E12192068E00EF7E96 /* HabilidadeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875592192068C00EF7E96 /* HabilidadeTableViewCell.swift */; };
+		CAC875E22192068E00EF7E96 /* ListagemCellFrequencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8755A2192068C00EF7E96 /* ListagemCellFrequencia.swift */; };
+		CAC875E32192068E00EF7E96 /* AlunoFrequenciaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8755C2192068C00EF7E96 /* AlunoFrequenciaView.swift */; };
+		CAC875E42192068E00EF7E96 /* AlunoAvaliacaoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8755D2192068C00EF7E96 /* AlunoAvaliacaoView.swift */; };
+		CAC875E52192068E00EF7E96 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8755E2192068C00EF7E96 /* CustomButton.swift */; };
+		CAC875E62192068E00EF7E96 /* CustomTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8755F2192068C00EF7E96 /* CustomTextFields.swift */; };
+		CAC875E72192068E00EF7E96 /* AlunoFechamentoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875602192068C00EF7E96 /* AlunoFechamentoView.swift */; };
+		CAC875E92192068E00EF7E96 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875622192068C00EF7E96 /* CalendarView.swift */; };
+		CAC875EB2192068E00EF7E96 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875642192068C00EF7E96 /* CustomLabel.swift */; };
+		CAC875EC2192068E00EF7E96 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875652192068C00EF7E96 /* InputView.swift */; };
+		CAC875ED2192068E00EF7E96 /* TurmaVaziaCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAC875682192068D00EF7E96 /* TurmaVaziaCellView.xib */; };
+		CAC875EF2192068E00EF7E96 /* AlunoAvaliacaoViewPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAC8756A2192068D00EF7E96 /* AlunoAvaliacaoViewPad.xib */; };
+		CAC875F02192068E00EF7E96 /* AlunoFechamentoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAC8756B2192068D00EF7E96 /* AlunoFechamentoView.xib */; };
+		CAC875F12192068E00EF7E96 /* AlunoAvaliacaoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAC8756C2192068D00EF7E96 /* AlunoAvaliacaoView.xib */; };
+		CAC875F32192068E00EF7E96 /* AlunoFrequenciaViewPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAC8756E2192068D00EF7E96 /* AlunoFrequenciaViewPad.xib */; };
+		CAC875F42192068E00EF7E96 /* AlunoFrequenciaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAC8756F2192068D00EF7E96 /* AlunoFrequenciaView.xib */; };
+		CAC875F52192068E00EF7E96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC875712192068D00EF7E96 /* Main.storyboard */; };
+		CAC875F62192068E00EF7E96 /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC875722192068D00EF7E96 /* Launch.storyboard */; };
+		CAC875F82192068E00EF7E96 /* DisciplinasIniciaisDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875752192068D00EF7E96 /* DisciplinasIniciaisDelegate.swift */; };
+		CAC875F92192068E00EF7E96 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875772192068D00EF7E96 /* Constants.swift */; };
+		CAC875FA2192068E00EF7E96 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875792192068D00EF7E96 /* Utils.swift */; };
+		CAC875FB2192068E00EF7E96 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8757A2192068D00EF7E96 /* Extensions.swift */; };
+		CAC875FD2192068E00EF7E96 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8757E2192068D00EF7E96 /* CoreDataManager.swift */; };
+		CAC875FE2192068E00EF7E96 /* FechamentoTurma.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875802192068D00EF7E96 /* FechamentoTurma.swift */; };
+		CAC875FF2192068E00EF7E96 /* Turma.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875812192068D00EF7E96 /* Turma.swift */; };
+		CAC876002192068E00EF7E96 /* Frequencia.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875822192068D00EF7E96 /* Frequencia.swift */; };
+		CAC876012192068E00EF7E96 /* Disciplina.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875832192068D00EF7E96 /* Disciplina.swift */; };
+		CAC876032192068E00EF7E96 /* FaltaAluno.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875852192068D00EF7E96 /* FaltaAluno.swift */; };
+		CAC876042192068E00EF7E96 /* TotalFaltasAluno.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875862192068D00EF7E96 /* TotalFaltasAluno.swift */; };
+		CAC876052192068E00EF7E96 /* RegistroAula.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875872192068D00EF7E96 /* RegistroAula.swift */; };
+		CAC876062192068E00EF7E96 /* NotaAluno.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875882192068D00EF7E96 /* NotaAluno.swift */; };
+		CAC876072192068E00EF7E96 /* FechamentoAluno.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875892192068D00EF7E96 /* FechamentoAluno.swift */; };
+		CAC876082192068E00EF7E96 /* Aluno.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8758A2192068D00EF7E96 /* Aluno.swift */; };
+		CAC876092192068E00EF7E96 /* Bimestre.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8758B2192068D00EF7E96 /* Bimestre.swift */; };
+		CAC8760A2192068E00EF7E96 /* Curriculo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8758C2192068D00EF7E96 /* Curriculo.swift */; };
+		CAC8760B2192068E00EF7E96 /* Average.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8758D2192068D00EF7E96 /* Average.swift */; };
+		CAC8760C2192068E00EF7E96 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8758E2192068D00EF7E96 /* Usuario.swift */; };
+		CAC8760D2192068E00EF7E96 /* DiaLetivo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8758F2192068D00EF7E96 /* DiaLetivo.swift */; };
+		CAC8760E2192068E00EF7E96 /* Grupo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875902192068D00EF7E96 /* Grupo.swift */; };
+		CAC8760F2192068E00EF7E96 /* Avaliacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875912192068D00EF7E96 /* Avaliacao.swift */; };
+		CAC876102192068E00EF7E96 /* Aula.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875922192068D00EF7E96 /* Aula.swift */; };
+		CAC876112192068E00EF7E96 /* TipoFechamentoBimestre.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875932192068D00EF7E96 /* TipoFechamentoBimestre.swift */; };
+		CAC876122192068E00EF7E96 /* Habilidade.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875942192068D00EF7E96 /* Habilidade.swift */; };
+		CAC876132192068E00EF7E96 /* Conteudo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875952192068D00EF7E96 /* Conteudo.swift */; };
+		CAC876142192068E00EF7E96 /* DiarioClasse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CAC875972192068D00EF7E96 /* DiarioClasse.xcdatamodeld */; };
+		CAC876152192068E00EF7E96 /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC8759A2192068E00EF7E96 /* Requests.swift */; };
+		CAC876162192068E00EF7E96 /* LaunchScreen.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAC8759C2192068E00EF7E96 /* LaunchScreen.strings */; };
+		CAC876172192068E00EF7E96 /* Main.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAC8759D2192068E00EF7E96 /* Main.strings */; };
+		CAC876182192068E00EF7E96 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CAC8759E2192068E00EF7E96 /* Localizable.strings */; };
+		CAC876192192068E00EF7E96 /* offline.json in Resources */ = {isa = PBXBuildFile; fileRef = CAC875A02192068E00EF7E96 /* offline.json */; };
+		CAC8761B2192068E00EF7E96 /* usuario.json in Resources */ = {isa = PBXBuildFile; fileRef = CAC875A22192068E00EF7E96 /* usuario.json */; };
+		CAC8761D2192068E00EF7E96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC875A62192068E00EF7E96 /* AppDelegate.swift */; };
+		CAC87621219206A900EF7E96 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC87620219206A900EF7E96 /* Media.xcassets */; };
+		CACB20C52360970E008B9CF7 /* HabilidadeRegistroAula.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACB20C42360970E008B9CF7 /* HabilidadeRegistroAula.swift */; };
+		CACB20C7236097D6008B9CF7 /* HabilidadeRegistroAulaDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACB20C6236097D6008B9CF7 /* HabilidadeRegistroAulaDao.swift */; };
+		CAD0D2B5237DCC9E00EBF295 /* AvaliarAplicativoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD0D2B4237DCC9E00EBF295 /* AvaliarAplicativoViewController.swift */; };
+		CAD0D2B7237DCE4700EBF295 /* AvaliarAplicativoDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD0D2B6237DCE4700EBF295 /* AvaliarAplicativoDelegate.swift */; };
+		CAD0D2B9237DE31000EBF295 /* SincronizarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD0D2B8237DE31000EBF295 /* SincronizarViewController.swift */; };
+		CAD2C8902236E65200AA5289 /* FechamentoTurmaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD2C88F2236E65200AA5289 /* FechamentoTurmaModel.swift */; };
+		CAD2C8922236E6A500AA5289 /* NotaAlunoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD2C8912236E6A500AA5289 /* NotaAlunoModel.swift */; };
+		CAD76FCA2231560600095D53 /* SincronizarAvaliacaoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD76FC92231560600095D53 /* SincronizarAvaliacaoRequest.swift */; };
+		CAD76FCC2231607B00095D53 /* SincronizarFrequenciasRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD76FCB2231607B00095D53 /* SincronizarFrequenciasRequest.swift */; };
+		CAD76FCE22316A7C00095D53 /* SincronizarRegistrosAulaRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD76FCD22316A7C00095D53 /* SincronizarRegistrosAulaRequest.swift */; };
+		CAD76FD02231840000095D53 /* SincronizarRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD76FCF2231840000095D53 /* SincronizarRequest.swift */; };
+		CAF78AB021C27BFB002D9DEE /* AvaliacaoDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF78AAF21C27BFB002D9DEE /* AvaliacaoDelegate.swift */; };
+		CAF78AB221C2B7F2002D9DEE /* AlunoAvaliacaoViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF78AB121C2B7F2002D9DEE /* AlunoAvaliacaoViewDelegate.swift */; };
+		CAFECD0321D3A179006FC8CC /* AverageTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFECD0221D3A179006FC8CC /* AverageTableViewCellDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0201FBCD2345850600CB9ED3 /* CalendarioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarioViewController.swift; sourceTree = "<group>"; };
+		0201FBCF23458B0900CB9ED3 /* CalendarioDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarioDelegate.swift; sourceTree = "<group>"; };
+		0253FC63239EE95300C4A8B2 /* VersaoAppRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VersaoAppRequest.swift; sourceTree = "<group>"; };
+		0261091E232B25A000FE5A6A /* DiaConflito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaConflito.swift; sourceTree = "<group>"; };
+		02610920232B25FF00FE5A6A /* HorarioConflito.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorarioConflito.swift; sourceTree = "<group>"; };
+		02610922232B26E400FE5A6A /* DiaConflitoDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaConflitoDao.swift; sourceTree = "<group>"; };
+		02610926232B2CE000FE5A6A /* HorarioConflitoDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorarioConflitoDao.swift; sourceTree = "<group>"; };
+		027CED202337C7BB00BB9277 /* ConflitosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConflitosViewController.swift; sourceTree = "<group>"; };
+		029B62E22347AE78006EE4CC /* VKCheckbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKCheckbox.swift; sourceTree = "<group>"; };
+		02E34CB4233471DD0036C18D /* HorarioFrequenciaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorarioFrequenciaTableViewCell.swift; sourceTree = "<group>"; };
+		02E34CB72334769B0036C18D /* ExcluirFrequenciaRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcluirFrequenciaRequest.swift; sourceTree = "<group>"; };
+		02F85786235FEDD200267FB7 /* HorariosRegistroAulaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorariosRegistroAulaViewController.swift; sourceTree = "<group>"; };
+		02F85788235FF02C00267FB7 /* HorariosRegistroAulaDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorariosRegistroAulaDelegate.swift; sourceTree = "<group>"; };
+		02F8578C235FF24F00267FB7 /* HorarioRegistroAulaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorarioRegistroAulaTableViewCell.swift; sourceTree = "<group>"; };
+		1FED6DD981FA352E6F2D0B2F /* Pods_SEDProfessorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SEDProfessorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A65A611BD0554900891EA1 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		43D64CA31B3DA98800E754D8 /* SEDProfessor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SEDProfessor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D29EB0303A13426232BCCA9 /* Pods-SEDProfessor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SEDProfessor.release.xcconfig"; path = "Pods/Target Support Files/Pods-SEDProfessor/Pods-SEDProfessor.release.xcconfig"; sourceTree = "<group>"; };
+		73AA8756317B4DEBC6D1B05A /* Pods-SEDProfessor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SEDProfessor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SEDProfessor/Pods-SEDProfessor.debug.xcconfig"; sourceTree = "<group>"; };
+		822E6EE91E69A88800DFAFD2 /* TipoFechamentoBimestre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoFechamentoBimestre.swift; sourceTree = "<group>"; };
+		CA204CAC222FDD5900F6C06B /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
+		CA204CAE222FE89B00F6C06B /* BuscarTurmasRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuscarTurmasRequest.swift; sourceTree = "<group>"; };
+		CA3EB6F121A87E5B00EA0F30 /* HorariosFrequenciaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorariosFrequenciaViewController.swift; sourceTree = "<group>"; };
+		CA3EB6F321A87F9B00EA0F30 /* HorariosFrequenciaDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorariosFrequenciaDelegate.swift; sourceTree = "<group>"; };
+		CA44AA6E233E764800DB215A /* HorarioFrequencia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorarioFrequencia.swift; sourceTree = "<group>"; };
+		CA44AA70233E769600DB215A /* HorarioFrequenciaDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorarioFrequenciaDao.swift; sourceTree = "<group>"; };
+		CA469A78221DE2E000D3D17A /* DiaFrequencia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaFrequencia.swift; sourceTree = "<group>"; };
+		CA469A7A221DE45B00D3D17A /* DiaFrequenciaDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaFrequenciaDao.swift; sourceTree = "<group>"; };
+		CA592D6D232840560044AE3F /* TurmaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TurmaTableViewCell.xib; sourceTree = "<group>"; };
+		CA78D7402217353F00A0E728 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CA7A621322021DDC00F89A1E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CA871C9E21C911E3009CEBDF /* BimestresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BimestresViewController.swift; sourceTree = "<group>"; };
+		CA871CA021C922D4009CEBDF /* BimestreDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BimestreDelegate.swift; sourceTree = "<group>"; };
+		CA871CA221C92B44009CEBDF /* AvaliacoesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvaliacoesViewController.swift; sourceTree = "<group>"; };
+		CA871CA421C92DA0009CEBDF /* AvaliacoesDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvaliacoesDelegate.swift; sourceTree = "<group>"; };
+		CAB12EC1219B4E1700BAF5EE /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		CAC4BFEF231F00CF00F0747F /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		CAC8751D2192068C00EF7E96 /* BimestreDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BimestreDao.swift; sourceTree = "<group>"; };
+		CAC8751E2192068C00EF7E96 /* DisciplinaDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisciplinaDao.swift; sourceTree = "<group>"; };
+		CAC8751F2192068C00EF7E96 /* DiaLetivoDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaLetivoDao.swift; sourceTree = "<group>"; };
+		CAC875202192068C00EF7E96 /* FaltaAlunoDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaltaAlunoDao.swift; sourceTree = "<group>"; };
+		CAC875212192068C00EF7E96 /* GrupoDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GrupoDao.swift; sourceTree = "<group>"; };
+		CAC875222192068C00EF7E96 /* NotaAlunoDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotaAlunoDao.swift; sourceTree = "<group>"; };
+		CAC875232192068C00EF7E96 /* HabilidadeDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HabilidadeDao.swift; sourceTree = "<group>"; };
+		CAC875242192068C00EF7E96 /* AulaDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AulaDao.swift; sourceTree = "<group>"; };
+		CAC875252192068C00EF7E96 /* AlunoDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlunoDao.swift; sourceTree = "<group>"; };
+		CAC875262192068C00EF7E96 /* FechamentoAlunoDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FechamentoAlunoDao.swift; sourceTree = "<group>"; };
+		CAC875272192068C00EF7E96 /* FrequenciaDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrequenciaDao.swift; sourceTree = "<group>"; };
+		CAC875292192068C00EF7E96 /* TotalFaltasAlunoDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalFaltasAlunoDao.swift; sourceTree = "<group>"; };
+		CAC8752A2192068C00EF7E96 /* FechamentoTurmaDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FechamentoTurmaDao.swift; sourceTree = "<group>"; };
+		CAC8752B2192068C00EF7E96 /* TipoFechamentoBimestreDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoFechamentoBimestreDao.swift; sourceTree = "<group>"; };
+		CAC8752C2192068C00EF7E96 /* TurmaDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurmaDao.swift; sourceTree = "<group>"; };
+		CAC8752E2192068C00EF7E96 /* ConteudoDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConteudoDao.swift; sourceTree = "<group>"; };
+		CAC8752F2192068C00EF7E96 /* CurriculoDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurriculoDao.swift; sourceTree = "<group>"; };
+		CAC875302192068C00EF7E96 /* AverageDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AverageDao.swift; sourceTree = "<group>"; };
+		CAC875312192068C00EF7E96 /* RegistroAulaDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroAulaDao.swift; sourceTree = "<group>"; };
+		CAC875322192068C00EF7E96 /* AvaliacaoDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvaliacaoDao.swift; sourceTree = "<group>"; };
+		CAC875332192068C00EF7E96 /* UsuarioDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsuarioDao.swift; sourceTree = "<group>"; };
+		CAC875342192068C00EF7E96 /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		CAC875362192068C00EF7E96 /* FechamentoBimestreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FechamentoBimestreViewController.swift; sourceTree = "<group>"; };
+		CAC875372192068C00EF7E96 /* TurmasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurmasViewController.swift; sourceTree = "<group>"; };
+		CAC875382192068C00EF7E96 /* FechamentoListaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FechamentoListaViewController.swift; sourceTree = "<group>"; };
+		CAC875392192068C00EF7E96 /* NovaAvaliacaoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovaAvaliacaoViewController.swift; sourceTree = "<group>"; };
+		CAC8753A2192068C00EF7E96 /* RegistroAulaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroAulaViewController.swift; sourceTree = "<group>"; };
+		CAC8753B2192068C00EF7E96 /* FrequenciaLancamentoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrequenciaLancamentoViewController.swift; sourceTree = "<group>"; };
+		CAC8753D2192068C00EF7E96 /* AverageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AverageTableViewCell.swift; sourceTree = "<group>"; };
+		CAC8753E2192068C00EF7E96 /* UserTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
+		CAC875402192068C00EF7E96 /* AlunosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlunosViewController.swift; sourceTree = "<group>"; };
+		CAC875412192068C00EF7E96 /* NotasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotasViewController.swift; sourceTree = "<group>"; };
+		CAC875422192068C00EF7E96 /* WeightedAverageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeightedAverageTableViewCell.swift; sourceTree = "<group>"; };
+		CAC875432192068C00EF7E96 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CAC875442192068C00EF7E96 /* DisciplinasIniciaisViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisciplinasIniciaisViewController.swift; sourceTree = "<group>"; };
+		CAC875452192068C00EF7E96 /* AvaliacaoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvaliacaoViewController.swift; sourceTree = "<group>"; };
+		CAC875462192068C00EF7E96 /* DetalhesAlunoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesAlunoController.swift; sourceTree = "<group>"; };
+		CAC875472192068C00EF7E96 /* AverageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AverageViewController.swift; sourceTree = "<group>"; };
+		CAC875482192068C00EF7E96 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		CAC875492192068C00EF7E96 /* FrequenciaConsultaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrequenciaConsultaViewController.swift; sourceTree = "<group>"; };
+		CAC8754C2192068C00EF7E96 /* AvaliacaoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvaliacaoTableViewCell.swift; sourceTree = "<group>"; };
+		CAC8754D2192068C00EF7E96 /* BimestreCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BimestreCollectionViewCell.swift; sourceTree = "<group>"; };
+		CAC8754E2192068C00EF7E96 /* FrequenciaConsultaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrequenciaConsultaTableViewCell.swift; sourceTree = "<group>"; };
+		CAC8754F2192068C00EF7E96 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		CAC875502192068C00EF7E96 /* TurmaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TurmaTableViewCell.swift; sourceTree = "<group>"; };
+		CAC875512192068C00EF7E96 /* ConteudoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConteudoTableViewCell.swift; sourceTree = "<group>"; };
+		CAC875522192068C00EF7E96 /* FechamentoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FechamentoTableViewCell.swift; sourceTree = "<group>"; };
+		CAC875532192068C00EF7E96 /* AvaliacaoListaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvaliacaoListaTableViewCell.swift; sourceTree = "<group>"; };
+		CAC875542192068C00EF7E96 /* AlunoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlunoTableViewCell.swift; sourceTree = "<group>"; };
+		CAC875562192068C00EF7E96 /* DetalhesAlunoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalhesAlunoTableViewCell.swift; sourceTree = "<group>"; };
+		CAC875572192068C00EF7E96 /* AverageHeaderViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AverageHeaderViewTableViewCell.swift; sourceTree = "<group>"; };
+		CAC875592192068C00EF7E96 /* HabilidadeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HabilidadeTableViewCell.swift; sourceTree = "<group>"; };
+		CAC8755A2192068C00EF7E96 /* ListagemCellFrequencia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListagemCellFrequencia.swift; sourceTree = "<group>"; };
+		CAC8755C2192068C00EF7E96 /* AlunoFrequenciaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlunoFrequenciaView.swift; sourceTree = "<group>"; };
+		CAC8755D2192068C00EF7E96 /* AlunoAvaliacaoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlunoAvaliacaoView.swift; sourceTree = "<group>"; };
+		CAC8755E2192068C00EF7E96 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		CAC8755F2192068C00EF7E96 /* CustomTextFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextFields.swift; sourceTree = "<group>"; };
+		CAC875602192068C00EF7E96 /* AlunoFechamentoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlunoFechamentoView.swift; sourceTree = "<group>"; };
+		CAC875622192068C00EF7E96 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		CAC875642192068C00EF7E96 /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		CAC875652192068C00EF7E96 /* InputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		CAC875682192068D00EF7E96 /* TurmaVaziaCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TurmaVaziaCellView.xib; sourceTree = "<group>"; };
+		CAC8756A2192068D00EF7E96 /* AlunoAvaliacaoViewPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlunoAvaliacaoViewPad.xib; sourceTree = "<group>"; };
+		CAC8756B2192068D00EF7E96 /* AlunoFechamentoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlunoFechamentoView.xib; sourceTree = "<group>"; };
+		CAC8756C2192068D00EF7E96 /* AlunoAvaliacaoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlunoAvaliacaoView.xib; sourceTree = "<group>"; };
+		CAC8756E2192068D00EF7E96 /* AlunoFrequenciaViewPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlunoFrequenciaViewPad.xib; sourceTree = "<group>"; };
+		CAC8756F2192068D00EF7E96 /* AlunoFrequenciaView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlunoFrequenciaView.xib; sourceTree = "<group>"; };
+		CAC875712192068D00EF7E96 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CAC875722192068D00EF7E96 /* Launch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		CAC875752192068D00EF7E96 /* DisciplinasIniciaisDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisciplinasIniciaisDelegate.swift; sourceTree = "<group>"; };
+		CAC875772192068D00EF7E96 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CAC875792192068D00EF7E96 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		CAC8757A2192068D00EF7E96 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CAC8757E2192068D00EF7E96 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		CAC875802192068D00EF7E96 /* FechamentoTurma.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FechamentoTurma.swift; sourceTree = "<group>"; };
+		CAC875812192068D00EF7E96 /* Turma.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Turma.swift; sourceTree = "<group>"; };
+		CAC875822192068D00EF7E96 /* Frequencia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Frequencia.swift; sourceTree = "<group>"; };
+		CAC875832192068D00EF7E96 /* Disciplina.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Disciplina.swift; sourceTree = "<group>"; };
+		CAC875852192068D00EF7E96 /* FaltaAluno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaltaAluno.swift; sourceTree = "<group>"; };
+		CAC875862192068D00EF7E96 /* TotalFaltasAluno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalFaltasAluno.swift; sourceTree = "<group>"; };
+		CAC875872192068D00EF7E96 /* RegistroAula.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistroAula.swift; sourceTree = "<group>"; };
+		CAC875882192068D00EF7E96 /* NotaAluno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotaAluno.swift; sourceTree = "<group>"; };
+		CAC875892192068D00EF7E96 /* FechamentoAluno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FechamentoAluno.swift; sourceTree = "<group>"; };
+		CAC8758A2192068D00EF7E96 /* Aluno.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aluno.swift; sourceTree = "<group>"; };
+		CAC8758B2192068D00EF7E96 /* Bimestre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bimestre.swift; sourceTree = "<group>"; };
+		CAC8758C2192068D00EF7E96 /* Curriculo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Curriculo.swift; sourceTree = "<group>"; };
+		CAC8758D2192068D00EF7E96 /* Average.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Average.swift; sourceTree = "<group>"; };
+		CAC8758E2192068D00EF7E96 /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		CAC8758F2192068D00EF7E96 /* DiaLetivo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiaLetivo.swift; sourceTree = "<group>"; };
+		CAC875902192068D00EF7E96 /* Grupo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grupo.swift; sourceTree = "<group>"; };
+		CAC875912192068D00EF7E96 /* Avaliacao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Avaliacao.swift; sourceTree = "<group>"; };
+		CAC875922192068D00EF7E96 /* Aula.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aula.swift; sourceTree = "<group>"; };
+		CAC875932192068D00EF7E96 /* TipoFechamentoBimestre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoFechamentoBimestre.swift; sourceTree = "<group>"; };
+		CAC875942192068D00EF7E96 /* Habilidade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Habilidade.swift; sourceTree = "<group>"; };
+		CAC875952192068D00EF7E96 /* Conteudo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conteudo.swift; sourceTree = "<group>"; };
+		CAC875982192068E00EF7E96 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		CAC8759A2192068E00EF7E96 /* Requests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Requests.swift; sourceTree = "<group>"; };
+		CAC8759C2192068E00EF7E96 /* LaunchScreen.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = LaunchScreen.strings; sourceTree = "<group>"; };
+		CAC8759D2192068E00EF7E96 /* Main.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Main.strings; sourceTree = "<group>"; };
+		CAC8759E2192068E00EF7E96 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		CAC875A02192068E00EF7E96 /* offline.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = offline.json; sourceTree = "<group>"; };
+		CAC875A22192068E00EF7E96 /* usuario.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = usuario.json; sourceTree = "<group>"; };
+		CAC875A62192068E00EF7E96 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAC875A72192068E00EF7E96 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAC87620219206A900EF7E96 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		CACB20C42360970E008B9CF7 /* HabilidadeRegistroAula.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabilidadeRegistroAula.swift; sourceTree = "<group>"; };
+		CACB20C6236097D6008B9CF7 /* HabilidadeRegistroAulaDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabilidadeRegistroAulaDao.swift; sourceTree = "<group>"; };
+		CAD0D2B4237DCC9E00EBF295 /* AvaliarAplicativoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvaliarAplicativoViewController.swift; sourceTree = "<group>"; };
+		CAD0D2B6237DCE4700EBF295 /* AvaliarAplicativoDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvaliarAplicativoDelegate.swift; sourceTree = "<group>"; };
+		CAD0D2B8237DE31000EBF295 /* SincronizarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SincronizarViewController.swift; sourceTree = "<group>"; };
+		CAD2C88F2236E65200AA5289 /* FechamentoTurmaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FechamentoTurmaModel.swift; sourceTree = "<group>"; };
+		CAD2C8912236E6A500AA5289 /* NotaAlunoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotaAlunoModel.swift; sourceTree = "<group>"; };
+		CAD76FC92231560600095D53 /* SincronizarAvaliacaoRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SincronizarAvaliacaoRequest.swift; sourceTree = "<group>"; };
+		CAD76FCB2231607B00095D53 /* SincronizarFrequenciasRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SincronizarFrequenciasRequest.swift; sourceTree = "<group>"; };
+		CAD76FCD22316A7C00095D53 /* SincronizarRegistrosAulaRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SincronizarRegistrosAulaRequest.swift; sourceTree = "<group>"; };
+		CAD76FCF2231840000095D53 /* SincronizarRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SincronizarRequest.swift; sourceTree = "<group>"; };
+		CAF78AAF21C27BFB002D9DEE /* AvaliacaoDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvaliacaoDelegate.swift; sourceTree = "<group>"; };
+		CAF78AB121C2B7F2002D9DEE /* AlunoAvaliacaoViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlunoAvaliacaoViewDelegate.swift; sourceTree = "<group>"; };
+		CAFECD0221D3A179006FC8CC /* AverageTableViewCellDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		E14CFC7B1B53CEC58E828350 /* Pods_SEDProfessor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SEDProfessor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4449C69178DEA7D3C537333 /* Pods_SEDProfessorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SEDProfessorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43D64CA01B3DA98800E754D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8512199A32547661B62BF08D /* Pods_SEDProfessor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43D64C9A1B3DA98800E754D8 = {
+			isa = PBXGroup;
+			children = (
+				43D64CA51B3DA98800E754D8 /* SEDProfessor */,
+				43D64CA41B3DA98800E754D8 /* Products */,
+				D25CFCC020C69C00CD19A507 /* Frameworks */,
+				C8D3891A372FF75F6D92F147 /* Pods */,
+				FADE23AE211E16AF0070FB9C /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		43D64CA41B3DA98800E754D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43D64CA31B3DA98800E754D8 /* SEDProfessor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43D64CA51B3DA98800E754D8 /* SEDProfessor */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875762192068D00EF7E96 /* Constants */,
+				CAC875352192068C00EF7E96 /* Controller */,
+				CAC8757C2192068D00EF7E96 /* CoreData */,
+				CAC8751C2192068C00EF7E96 /* Dao */,
+				CAC8761F219206A900EF7E96 /* Images */,
+				CAC8759B2192068E00EF7E96 /* Localization */,
+				CAC8759F2192068E00EF7E96 /* Mocks */,
+				CAC8751B2192068C00EF7E96 /* Model */,
+				CAC875992192068E00EF7E96 /* Network */,
+				CAC875742192068D00EF7E96 /* Protocols */,
+				CAC875A42192068E00EF7E96 /* SupportingFiles */,
+				CAC875662192068D00EF7E96 /* UserInterface */,
+				CAC875782192068D00EF7E96 /* Utils */,
+				CAC8754A2192068C00EF7E96 /* Views */,
+			);
+			path = SEDProfessor;
+			sourceTree = "<group>";
+		};
+		C8D3891A372FF75F6D92F147 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73AA8756317B4DEBC6D1B05A /* Pods-SEDProfessor.debug.xcconfig */,
+				5D29EB0303A13426232BCCA9 /* Pods-SEDProfessor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CAC4BFF1231F073A00F0747F /* Avaliacao */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875452192068C00EF7E96 /* AvaliacaoViewController.swift */,
+				CA871CA221C92B44009CEBDF /* AvaliacoesViewController.swift */,
+				CAC875472192068C00EF7E96 /* AverageViewController.swift */,
+				CAC875412192068C00EF7E96 /* NotasViewController.swift */,
+				CAC875392192068C00EF7E96 /* NovaAvaliacaoViewController.swift */,
+			);
+			path = Avaliacao;
+			sourceTree = "<group>";
+		};
+		CAC4BFF2231F075900F0747F /* Frequencia */ = {
+			isa = PBXGroup;
+			children = (
+				027CED202337C7BB00BB9277 /* ConflitosViewController.swift */,
+				CA3EB6F121A87E5B00EA0F30 /* HorariosFrequenciaViewController.swift */,
+				CAC875492192068C00EF7E96 /* FrequenciaConsultaViewController.swift */,
+				CAC8753B2192068C00EF7E96 /* FrequenciaLancamentoViewController.swift */,
+			);
+			path = Frequencia;
+			sourceTree = "<group>";
+		};
+		CAC4BFF3231F077A00F0747F /* Turmas */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875402192068C00EF7E96 /* AlunosViewController.swift */,
+				CAC875462192068C00EF7E96 /* DetalhesAlunoController.swift */,
+				CAC875372192068C00EF7E96 /* TurmasViewController.swift */,
+			);
+			path = Turmas;
+			sourceTree = "<group>";
+		};
+		CAC4BFF4231F079800F0747F /* Fechamento */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875362192068C00EF7E96 /* FechamentoBimestreViewController.swift */,
+				CAC875382192068C00EF7E96 /* FechamentoListaViewController.swift */,
+			);
+			path = Fechamento;
+			sourceTree = "<group>";
+		};
+		CAC4BFF5231F07B200F0747F /* RegistrosAula */ = {
+			isa = PBXGroup;
+			children = (
+				02F85786235FEDD200267FB7 /* HorariosRegistroAulaViewController.swift */,
+				CAC8753A2192068C00EF7E96 /* RegistroAulaViewController.swift */,
+			);
+			path = RegistrosAula;
+			sourceTree = "<group>";
+		};
+		CAC4BFF6231F07CC00F0747F /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				CAC4BFEF231F00CF00F0747F /* MenuViewController.swift */,
+				CAD0D2B8237DE31000EBF295 /* SincronizarViewController.swift */,
+				CAC8753E2192068C00EF7E96 /* UserTableViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		CAC4BFF7231F07EF00F0747F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875432192068C00EF7E96 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CAC4BFF8231F080500F0747F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CAD0D2B4237DCC9E00EBF295 /* AvaliarAplicativoViewController.swift */,
+				CA871C9E21C911E3009CEBDF /* BimestresViewController.swift */,
+				0201FBCD2345850600CB9ED3 /* CalendarioViewController.swift */,
+				CAC875442192068C00EF7E96 /* DisciplinasIniciaisViewController.swift */,
+				CAC875482192068C00EF7E96 /* NavigationController.swift */,
+				CA78D7402217353F00A0E728 /* ViewController.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CAC4BFF9231F084200F0747F /* Fechamento */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875262192068C00EF7E96 /* FechamentoAlunoDao.swift */,
+				CAC8752A2192068C00EF7E96 /* FechamentoTurmaDao.swift */,
+				CAC8752B2192068C00EF7E96 /* TipoFechamentoBimestreDao.swift */,
+			);
+			path = Fechamento;
+			sourceTree = "<group>";
+		};
+		CAC4BFFA231F085900F0747F /* Avaliacao */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875322192068C00EF7E96 /* AvaliacaoDao.swift */,
+				CAC875302192068C00EF7E96 /* AverageDao.swift */,
+				CAC875222192068C00EF7E96 /* NotaAlunoDao.swift */,
+			);
+			path = Avaliacao;
+			sourceTree = "<group>";
+		};
+		CAC4BFFB231F087700F0747F /* RegistroAula */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8752E2192068C00EF7E96 /* ConteudoDao.swift */,
+				CAC8752F2192068C00EF7E96 /* CurriculoDao.swift */,
+				CAC875212192068C00EF7E96 /* GrupoDao.swift */,
+				CAC875232192068C00EF7E96 /* HabilidadeDao.swift */,
+				CACB20C6236097D6008B9CF7 /* HabilidadeRegistroAulaDao.swift */,
+				CAC875312192068C00EF7E96 /* RegistroAulaDao.swift */,
+			);
+			path = RegistroAula;
+			sourceTree = "<group>";
+		};
+		CAC4BFFC231F089B00F0747F /* Frequencia */ = {
+			isa = PBXGroup;
+			children = (
+				02610922232B26E400FE5A6A /* DiaConflitoDao.swift */,
+				CA469A7A221DE45B00D3D17A /* DiaFrequenciaDao.swift */,
+				CAC875202192068C00EF7E96 /* FaltaAlunoDao.swift */,
+				CAC875272192068C00EF7E96 /* FrequenciaDao.swift */,
+				02610926232B2CE000FE5A6A /* HorarioConflitoDao.swift */,
+				CA44AA70233E769600DB215A /* HorarioFrequenciaDao.swift */,
+				CAC875292192068C00EF7E96 /* TotalFaltasAlunoDao.swift */,
+			);
+			path = Frequencia;
+			sourceTree = "<group>";
+		};
+		CAC4BFFD231F08DB00F0747F /* Calendario */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8751D2192068C00EF7E96 /* BimestreDao.swift */,
+				CAC8751F2192068C00EF7E96 /* DiaLetivoDao.swift */,
+			);
+			path = Calendario;
+			sourceTree = "<group>";
+		};
+		CAC4BFFE231F08FB00F0747F /* Turma */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875252192068C00EF7E96 /* AlunoDao.swift */,
+				CAC875242192068C00EF7E96 /* AulaDao.swift */,
+				CAC8751E2192068C00EF7E96 /* DisciplinaDao.swift */,
+				CAC8752C2192068C00EF7E96 /* TurmaDao.swift */,
+			);
+			path = Turma;
+			sourceTree = "<group>";
+		};
+		CAC4BFFF231F090F00F0747F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875332192068C00EF7E96 /* UsuarioDao.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CAC4C000231F095E00F0747F /* Avaliacao */ = {
+			isa = PBXGroup;
+			children = (
+				CAC4C004231F09E800F0747F /* Cell */,
+				CAC4C005231F09F700F0747F /* View */,
+			);
+			path = Avaliacao;
+			sourceTree = "<group>";
+		};
+		CAC4C001231F097200F0747F /* RegistrosAula */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8754D2192068C00EF7E96 /* BimestreCollectionViewCell.swift */,
+				CAC875512192068C00EF7E96 /* ConteudoTableViewCell.swift */,
+				CAC875592192068C00EF7E96 /* HabilidadeTableViewCell.swift */,
+				02F8578C235FF24F00267FB7 /* HorarioRegistroAulaTableViewCell.swift */,
+			);
+			path = RegistrosAula;
+			sourceTree = "<group>";
+		};
+		CAC4C002231F099800F0747F /* Turma */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875542192068C00EF7E96 /* AlunoTableViewCell.swift */,
+				CAC875562192068C00EF7E96 /* DetalhesAlunoTableViewCell.swift */,
+				CAC875502192068C00EF7E96 /* TurmaTableViewCell.swift */,
+			);
+			path = Turma;
+			sourceTree = "<group>";
+		};
+		CAC4C003231F09BF00F0747F /* Frequencia */ = {
+			isa = PBXGroup;
+			children = (
+				CAC4C006231F0A0900F0747F /* Cell */,
+				CAC4C007231F0A1000F0747F /* View */,
+			);
+			path = Frequencia;
+			sourceTree = "<group>";
+		};
+		CAC4C004231F09E800F0747F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875532192068C00EF7E96 /* AvaliacaoListaTableViewCell.swift */,
+				CAC8754C2192068C00EF7E96 /* AvaliacaoTableViewCell.swift */,
+				CAC875572192068C00EF7E96 /* AverageHeaderViewTableViewCell.swift */,
+				CAC8753D2192068C00EF7E96 /* AverageTableViewCell.swift */,
+				CAC875422192068C00EF7E96 /* WeightedAverageTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CAC4C005231F09F700F0747F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8755D2192068C00EF7E96 /* AlunoAvaliacaoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CAC4C006231F0A0900F0747F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8754E2192068C00EF7E96 /* FrequenciaConsultaTableViewCell.swift */,
+				02E34CB4233471DD0036C18D /* HorarioFrequenciaTableViewCell.swift */,
+				CAC8755A2192068C00EF7E96 /* ListagemCellFrequencia.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CAC4C007231F0A1000F0747F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8755C2192068C00EF7E96 /* AlunoFrequenciaView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CAC4C008231F0A3F00F0747F /* Fechamento */ = {
+			isa = PBXGroup;
+			children = (
+				CAC4C009231F0A4700F0747F /* Cell */,
+				CAC4C00A231F0A4D00F0747F /* View */,
+			);
+			path = Fechamento;
+			sourceTree = "<group>";
+		};
+		CAC4C009231F0A4700F0747F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875522192068C00EF7E96 /* FechamentoTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		CAC4C00A231F0A4D00F0747F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875602192068C00EF7E96 /* AlunoFechamentoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CAC4C00B231F0A7500F0747F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8755E2192068C00EF7E96 /* CustomButton.swift */,
+				CAC875642192068C00EF7E96 /* CustomLabel.swift */,
+				CAC8755F2192068C00EF7E96 /* CustomTextFields.swift */,
+				CAC875652192068C00EF7E96 /* InputView.swift */,
+				029B62E22347AE78006EE4CC /* VKCheckbox.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CAC4C00C231F0A9A00F0747F /* Calendario */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875622192068C00EF7E96 /* CalendarView.swift */,
+			);
+			path = Calendario;
+			sourceTree = "<group>";
+		};
+		CAC4C00D231F0ADA00F0747F /* Avaliacao */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8756C2192068D00EF7E96 /* AlunoAvaliacaoView.xib */,
+				CAC8756A2192068D00EF7E96 /* AlunoAvaliacaoViewPad.xib */,
+			);
+			path = Avaliacao;
+			sourceTree = "<group>";
+		};
+		CAC4C00E231F0AF000F0747F /* Frequencia */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8756F2192068D00EF7E96 /* AlunoFrequenciaView.xib */,
+				CAC8756E2192068D00EF7E96 /* AlunoFrequenciaViewPad.xib */,
+			);
+			path = Frequencia;
+			sourceTree = "<group>";
+		};
+		CAC4C00F231F0B4000F0747F /* Turma */ = {
+			isa = PBXGroup;
+			children = (
+				CA592D6D232840560044AE3F /* TurmaTableViewCell.xib */,
+				CAC875682192068D00EF7E96 /* TurmaVaziaCellView.xib */,
+			);
+			path = Turma;
+			sourceTree = "<group>";
+		};
+		CAC4C010231F0B9D00F0747F /* Fechamento */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8756B2192068D00EF7E96 /* AlunoFechamentoView.xib */,
+			);
+			path = Fechamento;
+			sourceTree = "<group>";
+		};
+		CAC4C011231F0C3100F0747F /* Sincronizar */ = {
+			isa = PBXGroup;
+			children = (
+				CAD76FC92231560600095D53 /* SincronizarAvaliacaoRequest.swift */,
+				CAD76FCB2231607B00095D53 /* SincronizarFrequenciasRequest.swift */,
+				CAD76FCD22316A7C00095D53 /* SincronizarRegistrosAulaRequest.swift */,
+				CAD76FCF2231840000095D53 /* SincronizarRequest.swift */,
+			);
+			path = Sincronizar;
+			sourceTree = "<group>";
+		};
+		CAC4C012231F0C4600F0747F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CA204CAE222FE89B00F6C06B /* BuscarTurmasRequest.swift */,
+				CA204CAC222FDD5900F6C06B /* LoginRequest.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CAC4C013231F0C6100F0747F /* Turma */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8758A2192068D00EF7E96 /* Aluno.swift */,
+				CAC875922192068D00EF7E96 /* Aula.swift */,
+				CAC875832192068D00EF7E96 /* Disciplina.swift */,
+				CAC875812192068D00EF7E96 /* Turma.swift */,
+			);
+			path = Turma;
+			sourceTree = "<group>";
+		};
+		CAC4C014231F0C7600F0747F /* Avaliacao */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875912192068D00EF7E96 /* Avaliacao.swift */,
+				CAC8758D2192068D00EF7E96 /* Average.swift */,
+				CAC875882192068D00EF7E96 /* NotaAluno.swift */,
+				CAD2C8912236E6A500AA5289 /* NotaAlunoModel.swift */,
+			);
+			path = Avaliacao;
+			sourceTree = "<group>";
+		};
+		CAC4C015231F0C9500F0747F /* RegistroAula */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875952192068D00EF7E96 /* Conteudo.swift */,
+				CAC8758C2192068D00EF7E96 /* Curriculo.swift */,
+				CAC875902192068D00EF7E96 /* Grupo.swift */,
+				CAC875942192068D00EF7E96 /* Habilidade.swift */,
+				CACB20C42360970E008B9CF7 /* HabilidadeRegistroAula.swift */,
+				CAC875872192068D00EF7E96 /* RegistroAula.swift */,
+			);
+			path = RegistroAula;
+			sourceTree = "<group>";
+		};
+		CAC4C016231F0CBF00F0747F /* Fechamento */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875892192068D00EF7E96 /* FechamentoAluno.swift */,
+				CAC875802192068D00EF7E96 /* FechamentoTurma.swift */,
+				CAD2C88F2236E65200AA5289 /* FechamentoTurmaModel.swift */,
+				CAC875932192068D00EF7E96 /* TipoFechamentoBimestre.swift */,
+			);
+			path = Fechamento;
+			sourceTree = "<group>";
+		};
+		CAC4C017231F0CD100F0747F /* Frequencia */ = {
+			isa = PBXGroup;
+			children = (
+				0261091E232B25A000FE5A6A /* DiaConflito.swift */,
+				CA469A78221DE2E000D3D17A /* DiaFrequencia.swift */,
+				CAC875852192068D00EF7E96 /* FaltaAluno.swift */,
+				CAC875822192068D00EF7E96 /* Frequencia.swift */,
+				02610920232B25FF00FE5A6A /* HorarioConflito.swift */,
+				CA44AA6E233E764800DB215A /* HorarioFrequencia.swift */,
+				CAC875862192068D00EF7E96 /* TotalFaltasAluno.swift */,
+			);
+			path = Frequencia;
+			sourceTree = "<group>";
+		};
+		CAC4C018231F0CF700F0747F /* Calendario */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8758B2192068D00EF7E96 /* Bimestre.swift */,
+				CAC8758F2192068D00EF7E96 /* DiaLetivo.swift */,
+			);
+			path = Calendario;
+			sourceTree = "<group>";
+		};
+		CAC4C01A231F0D6500F0747F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8758E2192068D00EF7E96 /* Usuario.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		CAC4C01B231F0DED00F0747F /* Avaliacao */ = {
+			isa = PBXGroup;
+			children = (
+				CAF78AB121C2B7F2002D9DEE /* AlunoAvaliacaoViewDelegate.swift */,
+				CAF78AAF21C27BFB002D9DEE /* AvaliacaoDelegate.swift */,
+				CA871CA421C92DA0009CEBDF /* AvaliacoesDelegate.swift */,
+				CAFECD0221D3A179006FC8CC /* AverageTableViewCellDelegate.swift */,
+			);
+			path = Avaliacao;
+			sourceTree = "<group>";
+		};
+		CAC8751B2192068C00EF7E96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CAD2C8862236E3E600AA5289 /* CoreData */,
+				CAD2C8872236E40900AA5289 /* Model */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CAC8751C2192068C00EF7E96 /* Dao */ = {
+			isa = PBXGroup;
+			children = (
+				CAC4BFFA231F085900F0747F /* Avaliacao */,
+				CAC4BFFD231F08DB00F0747F /* Calendario */,
+				CAC4BFF9231F084200F0747F /* Fechamento */,
+				CAC4BFFC231F089B00F0747F /* Frequencia */,
+				CAC4BFFF231F090F00F0747F /* Login */,
+				CAC4BFFB231F087700F0747F /* RegistroAula */,
+				CAC4BFFE231F08FB00F0747F /* Turma */,
+			);
+			path = Dao;
+			sourceTree = "<group>";
+		};
+		CAC875352192068C00EF7E96 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CAC4BFF1231F073A00F0747F /* Avaliacao */,
+				CAC4BFF4231F079800F0747F /* Fechamento */,
+				CAC4BFF2231F075900F0747F /* Frequencia */,
+				CAC4BFF7231F07EF00F0747F /* Login */,
+				CAC4BFF6231F07CC00F0747F /* Menu */,
+				CAC4BFF5231F07B200F0747F /* RegistrosAula */,
+				CAC4BFF3231F077A00F0747F /* Turmas */,
+				CAC4BFF8231F080500F0747F /* Utils */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CAC8754A2192068C00EF7E96 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CAC4C000231F095E00F0747F /* Avaliacao */,
+				CAC4C00C231F0A9A00F0747F /* Calendario */,
+				CAC4C008231F0A3F00F0747F /* Fechamento */,
+				CAC4C003231F09BF00F0747F /* Frequencia */,
+				CAC4C001231F097200F0747F /* RegistrosAula */,
+				CAC4C002231F099800F0747F /* Turma */,
+				CAC4C00B231F0A7500F0747F /* Utils */,
+				CAC8754F2192068C00EF7E96 /* HomeCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CAC875662192068D00EF7E96 /* UserInterface */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875702192068D00EF7E96 /* Storyboard */,
+				CAC875672192068D00EF7E96 /* Xib */,
+			);
+			path = UserInterface;
+			sourceTree = "<group>";
+		};
+		CAC875672192068D00EF7E96 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				CAC4C00D231F0ADA00F0747F /* Avaliacao */,
+				CAC4C010231F0B9D00F0747F /* Fechamento */,
+				CAC4C00E231F0AF000F0747F /* Frequencia */,
+				CAC4C00F231F0B4000F0747F /* Turma */,
+			);
+			path = Xib;
+			sourceTree = "<group>";
+		};
+		CAC875702192068D00EF7E96 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875722192068D00EF7E96 /* Launch.storyboard */,
+				CAC875712192068D00EF7E96 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		CAC875742192068D00EF7E96 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				CAC4C01B231F0DED00F0747F /* Avaliacao */,
+				CAD0D2B6237DCE4700EBF295 /* AvaliarAplicativoDelegate.swift */,
+				CA871CA021C922D4009CEBDF /* BimestreDelegate.swift */,
+				0201FBCF23458B0900CB9ED3 /* CalendarioDelegate.swift */,
+				CAC875752192068D00EF7E96 /* DisciplinasIniciaisDelegate.swift */,
+				CA3EB6F321A87F9B00EA0F30 /* HorariosFrequenciaDelegate.swift */,
+				02F85788235FF02C00267FB7 /* HorariosRegistroAulaDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		CAC875762192068D00EF7E96 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875772192068D00EF7E96 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CAC875782192068D00EF7E96 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8757A2192068D00EF7E96 /* Extensions.swift */,
+				CAC875792192068D00EF7E96 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		CAC8757C2192068D00EF7E96 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875962192068D00EF7E96 /* DataModel */,
+				CAC8757D2192068D00EF7E96 /* Manager */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		CAC8757D2192068D00EF7E96 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8757E2192068D00EF7E96 /* CoreDataManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		CAC875962192068D00EF7E96 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875972192068D00EF7E96 /* DiarioClasse.xcdatamodeld */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		CAC875992192068E00EF7E96 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CAC4C012231F0C4600F0747F /* Login */,
+				CAC4C011231F0C3100F0747F /* Sincronizar */,
+				02E34CB72334769B0036C18D /* ExcluirFrequenciaRequest.swift */,
+				CAC8759A2192068E00EF7E96 /* Requests.swift */,
+				0253FC63239EE95300C4A8B2 /* VersaoAppRequest.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CAC8759B2192068E00EF7E96 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8759C2192068E00EF7E96 /* LaunchScreen.strings */,
+				CAC8759E2192068E00EF7E96 /* Localizable.strings */,
+				CAC8759D2192068E00EF7E96 /* Main.strings */,
+				CAB12EC1219B4E1700BAF5EE /* Localization.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		CAC8759F2192068E00EF7E96 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875A02192068E00EF7E96 /* offline.json */,
+				CAC875A22192068E00EF7E96 /* usuario.json */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		CAC875A42192068E00EF7E96 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875A62192068E00EF7E96 /* AppDelegate.swift */,
+				CA7A621322021DDC00F89A1E /* GoogleService-Info.plist */,
+				CAC875A72192068E00EF7E96 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		CAC8761F219206A900EF7E96 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CAC87620219206A900EF7E96 /* Media.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CAD2C8862236E3E600AA5289 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CAC4C014231F0C7600F0747F /* Avaliacao */,
+				CAC4C018231F0CF700F0747F /* Calendario */,
+				CAC4C016231F0CBF00F0747F /* Fechamento */,
+				CAC4C017231F0CD100F0747F /* Frequencia */,
+				CAC4C01A231F0D6500F0747F /* Login */,
+				CAC4C015231F0C9500F0747F /* RegistroAula */,
+				CAC4C013231F0C6100F0747F /* Turma */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		CAD2C8872236E40900AA5289 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CAC875342192068C00EF7E96 /* MenuItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D25CFCC020C69C00CD19A507 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43A65A611BD0554900891EA1 /* libsqlite3.tbd */,
+				E14CFC7B1B53CEC58E828350 /* Pods_SEDProfessor.framework */,
+				1FED6DD981FA352E6F2D0B2F /* Pods_SEDProfessorTests.framework */,
+				F4449C69178DEA7D3C537333 /* Pods_SEDProfessorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FADE23AE211E16AF0070FB9C /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				822E6EE91E69A88800DFAFD2 /* TipoFechamentoBimestre.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43D64CA21B3DA98800E754D8 /* SEDProfessor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43D64CC21B3DA98800E754D8 /* Build configuration list for PBXNativeTarget "SEDProfessor" */;
+			buildPhases = (
+				10BCAB24D602CB84A9B15F33 /* [CP] Check Pods Manifest.lock */,
+				4B390D7A6D34AFA7BA1655AD /* [CP] Check Pods Manifest.lock */,
+				43D64C9F1B3DA98800E754D8 /* Sources */,
+				43D64CA01B3DA98800E754D8 /* Frameworks */,
+				43D64CA11B3DA98800E754D8 /* Resources */,
+				97DE9017A5D68A2418E0A7C4 /* [CP] Embed Pods Frameworks */,
+				D3123206C0B8B7C6C61A5746 /* 📦 Embed Pods Frameworks */,
+				CA7A621222021C2800F89A1E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SEDProfessor;
+			productName = SEDProfessor;
+			productReference = 43D64CA31B3DA98800E754D8 /* SEDProfessor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43D64C9B1B3DA98800E754D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = PRODESP;
+				TargetAttributes = {
+					43D64CA21B3DA98800E754D8 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = NG8DB6RW5R;
+						LastSwiftMigration = 1010;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 43D64C9E1B3DA98800E754D8 /* Build configuration list for PBXProject "SEDProfessor" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Base,
+				"pt-BR",
+			);
+			mainGroup = 43D64C9A1B3DA98800E754D8;
+			productRefGroup = 43D64CA41B3DA98800E754D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43D64CA21B3DA98800E754D8 /* SEDProfessor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43D64CA11B3DA98800E754D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAC875F62192068E00EF7E96 /* Launch.storyboard in Resources */,
+				CAC875F02192068E00EF7E96 /* AlunoFechamentoView.xib in Resources */,
+				CAC876182192068E00EF7E96 /* Localizable.strings in Resources */,
+				CA592D6E232840560044AE3F /* TurmaTableViewCell.xib in Resources */,
+				CAC875ED2192068E00EF7E96 /* TurmaVaziaCellView.xib in Resources */,
+				CAC875EF2192068E00EF7E96 /* AlunoAvaliacaoViewPad.xib in Resources */,
+				CAC87621219206A900EF7E96 /* Media.xcassets in Resources */,
+				CAC876192192068E00EF7E96 /* offline.json in Resources */,
+				CA7A621422021DDD00F89A1E /* GoogleService-Info.plist in Resources */,
+				CAC8761B2192068E00EF7E96 /* usuario.json in Resources */,
+				CAC876162192068E00EF7E96 /* LaunchScreen.strings in Resources */,
+				CAC875F42192068E00EF7E96 /* AlunoFrequenciaView.xib in Resources */,
+				CAC875F52192068E00EF7E96 /* Main.storyboard in Resources */,
+				CAC876172192068E00EF7E96 /* Main.strings in Resources */,
+				CAC875F12192068E00EF7E96 /* AlunoAvaliacaoView.xib in Resources */,
+				CAC875F32192068E00EF7E96 /* AlunoFrequenciaViewPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10BCAB24D602CB84A9B15F33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SEDProfessor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B390D7A6D34AFA7BA1655AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		97DE9017A5D68A2418E0A7C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SEDProfessor/Pods-SEDProfessor-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BetterSegmentedControl/BetterSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/Cosmos/Cosmos.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/GMStepper/GMStepper.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MZAppearance/MZAppearance.framework",
+				"${BUILT_PRODUCTS_DIR}/MZFormSheetPresentationController/MZFormSheetPresentationController.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BetterSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cosmos.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GMStepper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MZAppearance.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MZFormSheetPresentationController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SEDProfessor/Pods-SEDProfessor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA7A621222021C2800F89A1E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\"\n";
+		};
+		D3123206C0B8B7C6C61A5746 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SEDProfessor/Pods-SEDProfessor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43D64C9F1B3DA98800E754D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				027CED212337C7BB00BB9277 /* ConflitosViewController.swift in Sources */,
+				CAC875AB2192068E00EF7E96 /* FaltaAlunoDao.swift in Sources */,
+				CAC875DF2192068E00EF7E96 /* AverageHeaderViewTableViewCell.swift in Sources */,
+				CAC876132192068E00EF7E96 /* Conteudo.swift in Sources */,
+				CAC876122192068E00EF7E96 /* Habilidade.swift in Sources */,
+				CAC875C52192068E00EF7E96 /* FrequenciaLancamentoViewController.swift in Sources */,
+				CA871C9F21C911E3009CEBDF /* BimestresViewController.swift in Sources */,
+				CAD0D2B7237DCE4700EBF295 /* AvaliarAplicativoDelegate.swift in Sources */,
+				CAC8760E2192068E00EF7E96 /* Grupo.swift in Sources */,
+				CAC875EC2192068E00EF7E96 /* InputView.swift in Sources */,
+				0261091F232B25A000FE5A6A /* DiaConflito.swift in Sources */,
+				CAC875CF2192068E00EF7E96 /* AvaliacaoViewController.swift in Sources */,
+				CAC875D22192068E00EF7E96 /* NavigationController.swift in Sources */,
+				CAC875FA2192068E00EF7E96 /* Utils.swift in Sources */,
+				CAC875DA2192068E00EF7E96 /* FechamentoTableViewCell.swift in Sources */,
+				CAC875E72192068E00EF7E96 /* AlunoFechamentoView.swift in Sources */,
+				CAC875FB2192068E00EF7E96 /* Extensions.swift in Sources */,
+				CAC875D52192068E00EF7E96 /* BimestreCollectionViewCell.swift in Sources */,
+				CAC875F92192068E00EF7E96 /* Constants.swift in Sources */,
+				CAC875CD2192068E00EF7E96 /* LoginViewController.swift in Sources */,
+				CAC875B22192068E00EF7E96 /* FrequenciaDao.swift in Sources */,
+				CAC876002192068E00EF7E96 /* Frequencia.swift in Sources */,
+				CAC875BE2192068E00EF7E96 /* UsuarioDao.swift in Sources */,
+				CAC875DE2192068E00EF7E96 /* DetalhesAlunoTableViewCell.swift in Sources */,
+				CAC876092192068E00EF7E96 /* Bimestre.swift in Sources */,
+				CAC875FD2192068E00EF7E96 /* CoreDataManager.swift in Sources */,
+				CAC8760F2192068E00EF7E96 /* Avaliacao.swift in Sources */,
+				CAC876052192068E00EF7E96 /* RegistroAula.swift in Sources */,
+				CAC875E32192068E00EF7E96 /* AlunoFrequenciaView.swift in Sources */,
+				CAFECD0321D3A179006FC8CC /* AverageTableViewCellDelegate.swift in Sources */,
+				02F85789235FF02C00267FB7 /* HorariosRegistroAulaDelegate.swift in Sources */,
+				CAC875D12192068E00EF7E96 /* AverageViewController.swift in Sources */,
+				CAD76FCA2231560600095D53 /* SincronizarAvaliacaoRequest.swift in Sources */,
+				CACB20C52360970E008B9CF7 /* HabilidadeRegistroAula.swift in Sources */,
+				02F85787235FEDD200267FB7 /* HorariosRegistroAulaViewController.swift in Sources */,
+				CAC875AE2192068E00EF7E96 /* HabilidadeDao.swift in Sources */,
+				CAC875BC2192068E00EF7E96 /* RegistroAulaDao.swift in Sources */,
+				CA469A79221DE2E000D3D17A /* DiaFrequencia.swift in Sources */,
+				CAC875FE2192068E00EF7E96 /* FechamentoTurma.swift in Sources */,
+				02E34CB82334769B0036C18D /* ExcluirFrequenciaRequest.swift in Sources */,
+				CAC875CB2192068E00EF7E96 /* NotasViewController.swift in Sources */,
+				CAC875A82192068E00EF7E96 /* BimestreDao.swift in Sources */,
+				CAC875FF2192068E00EF7E96 /* Turma.swift in Sources */,
+				CAC875E22192068E00EF7E96 /* ListagemCellFrequencia.swift in Sources */,
+				CAC876072192068E00EF7E96 /* FechamentoAluno.swift in Sources */,
+				CAC875A92192068E00EF7E96 /* DisciplinaDao.swift in Sources */,
+				CAC875B72192068E00EF7E96 /* TurmaDao.swift in Sources */,
+				CAC875B02192068E00EF7E96 /* AlunoDao.swift in Sources */,
+				CAC875D92192068E00EF7E96 /* ConteudoTableViewCell.swift in Sources */,
+				CAC876012192068E00EF7E96 /* Disciplina.swift in Sources */,
+				CAC875C02192068E00EF7E96 /* FechamentoBimestreViewController.swift in Sources */,
+				CAD0D2B9237DE31000EBF295 /* SincronizarViewController.swift in Sources */,
+				CAC875E12192068E00EF7E96 /* HabilidadeTableViewCell.swift in Sources */,
+				CAB12EC2219B4E1700BAF5EE /* Localization.swift in Sources */,
+				CAC875CC2192068E00EF7E96 /* WeightedAverageTableViewCell.swift in Sources */,
+				CAC875AC2192068E00EF7E96 /* GrupoDao.swift in Sources */,
+				0253FC64239EE95300C4A8B2 /* VersaoAppRequest.swift in Sources */,
+				CAD76FD02231840000095D53 /* SincronizarRequest.swift in Sources */,
+				CAD2C8922236E6A500AA5289 /* NotaAlunoModel.swift in Sources */,
+				CA204CAF222FE89B00F6C06B /* BuscarTurmasRequest.swift in Sources */,
+				CAF78AB021C27BFB002D9DEE /* AvaliacaoDelegate.swift in Sources */,
+				CAC875D32192068E00EF7E96 /* FrequenciaConsultaViewController.swift in Sources */,
+				CAC875C12192068E00EF7E96 /* TurmasViewController.swift in Sources */,
+				CAC875D72192068E00EF7E96 /* HomeCollectionViewCell.swift in Sources */,
+				CAC875CE2192068E00EF7E96 /* DisciplinasIniciaisViewController.swift in Sources */,
+				CAC875DB2192068E00EF7E96 /* AvaliacaoListaTableViewCell.swift in Sources */,
+				CAC875BB2192068E00EF7E96 /* AverageDao.swift in Sources */,
+				CAC875D02192068E00EF7E96 /* DetalhesAlunoController.swift in Sources */,
+				CAC875EB2192068E00EF7E96 /* CustomLabel.swift in Sources */,
+				02F8578D235FF24F00267FB7 /* HorarioRegistroAulaTableViewCell.swift in Sources */,
+				CA78D7412217353F00A0E728 /* ViewController.swift in Sources */,
+				CAC876152192068E00EF7E96 /* Requests.swift in Sources */,
+				CAC8760D2192068E00EF7E96 /* DiaLetivo.swift in Sources */,
+				CAF78AB221C2B7F2002D9DEE /* AlunoAvaliacaoViewDelegate.swift in Sources */,
+				0201FBCE2345850600CB9ED3 /* CalendarioViewController.swift in Sources */,
+				CAC875B52192068E00EF7E96 /* FechamentoTurmaDao.swift in Sources */,
+				CA871CA121C922D4009CEBDF /* BimestreDelegate.swift in Sources */,
+				CAC875AA2192068E00EF7E96 /* DiaLetivoDao.swift in Sources */,
+				CAC875D62192068E00EF7E96 /* FrequenciaConsultaTableViewCell.swift in Sources */,
+				CAC875BD2192068E00EF7E96 /* AvaliacaoDao.swift in Sources */,
+				CA3EB6F421A87F9B00EA0F30 /* HorariosFrequenciaDelegate.swift in Sources */,
+				CA871CA521C92DA0009CEBDF /* AvaliacoesDelegate.swift in Sources */,
+				CAC875DC2192068E00EF7E96 /* AlunoTableViewCell.swift in Sources */,
+				CAC875C82192068E00EF7E96 /* UserTableViewController.swift in Sources */,
+				CAC876102192068E00EF7E96 /* Aula.swift in Sources */,
+				CAC875D42192068E00EF7E96 /* AvaliacaoTableViewCell.swift in Sources */,
+				CAC875C72192068E00EF7E96 /* AverageTableViewCell.swift in Sources */,
+				CA204CAD222FDD5900F6C06B /* LoginRequest.swift in Sources */,
+				CAC876112192068E00EF7E96 /* TipoFechamentoBimestre.swift in Sources */,
+				02610927232B2CE000FE5A6A /* HorarioConflitoDao.swift in Sources */,
+				CAC8760B2192068E00EF7E96 /* Average.swift in Sources */,
+				02E34CB5233471DD0036C18D /* HorarioFrequenciaTableViewCell.swift in Sources */,
+				CAC875B62192068E00EF7E96 /* TipoFechamentoBimestreDao.swift in Sources */,
+				CA44AA71233E769600DB215A /* HorarioFrequenciaDao.swift in Sources */,
+				CAC875B12192068E00EF7E96 /* FechamentoAlunoDao.swift in Sources */,
+				CAC876142192068E00EF7E96 /* DiarioClasse.xcdatamodeld in Sources */,
+				CAC876062192068E00EF7E96 /* NotaAluno.swift in Sources */,
+				CA3EB6F221A87E5B00EA0F30 /* HorariosFrequenciaViewController.swift in Sources */,
+				CAC8760A2192068E00EF7E96 /* Curriculo.swift in Sources */,
+				CAD76FCC2231607B00095D53 /* SincronizarFrequenciasRequest.swift in Sources */,
+				CAC8760C2192068E00EF7E96 /* Usuario.swift in Sources */,
+				CAC875E92192068E00EF7E96 /* CalendarView.swift in Sources */,
+				CAC876082192068E00EF7E96 /* Aluno.swift in Sources */,
+				CAC875E52192068E00EF7E96 /* CustomButton.swift in Sources */,
+				CAC875C22192068E00EF7E96 /* FechamentoListaViewController.swift in Sources */,
+				CAC875D82192068E00EF7E96 /* TurmaTableViewCell.swift in Sources */,
+				CAC875C32192068E00EF7E96 /* NovaAvaliacaoViewController.swift in Sources */,
+				CAC875CA2192068E00EF7E96 /* AlunosViewController.swift in Sources */,
+				CACB20C7236097D6008B9CF7 /* HabilidadeRegistroAulaDao.swift in Sources */,
+				CAC876042192068E00EF7E96 /* TotalFaltasAluno.swift in Sources */,
+				CAD76FCE22316A7C00095D53 /* SincronizarRegistrosAulaRequest.swift in Sources */,
+				CAC875C42192068E00EF7E96 /* RegistroAulaViewController.swift in Sources */,
+				CAC8761D2192068E00EF7E96 /* AppDelegate.swift in Sources */,
+				CAC875AF2192068E00EF7E96 /* AulaDao.swift in Sources */,
+				CAC875BA2192068E00EF7E96 /* CurriculoDao.swift in Sources */,
+				0201FBD023458B0900CB9ED3 /* CalendarioDelegate.swift in Sources */,
+				CAC875F82192068E00EF7E96 /* DisciplinasIniciaisDelegate.swift in Sources */,
+				CAC876032192068E00EF7E96 /* FaltaAluno.swift in Sources */,
+				CAD0D2B5237DCC9E00EBF295 /* AvaliarAplicativoViewController.swift in Sources */,
+				029B62E32347AE78006EE4CC /* VKCheckbox.swift in Sources */,
+				CAC875E62192068E00EF7E96 /* CustomTextFields.swift in Sources */,
+				CA469A7B221DE45B00D3D17A /* DiaFrequenciaDao.swift in Sources */,
+				CA44AA6F233E764800DB215A /* HorarioFrequencia.swift in Sources */,
+				CAC875E42192068E00EF7E96 /* AlunoAvaliacaoView.swift in Sources */,
+				CA871CA321C92B44009CEBDF /* AvaliacoesViewController.swift in Sources */,
+				CAD2C8902236E65200AA5289 /* FechamentoTurmaModel.swift in Sources */,
+				02610921232B25FF00FE5A6A /* HorarioConflito.swift in Sources */,
+				CAC4BFF0231F00CF00F0747F /* MenuViewController.swift in Sources */,
+				02610923232B26E400FE5A6A /* DiaConflitoDao.swift in Sources */,
+				CAC875B42192068E00EF7E96 /* TotalFaltasAlunoDao.swift in Sources */,
+				CAC875B92192068E00EF7E96 /* ConteudoDao.swift in Sources */,
+				CAC875BF2192068E00EF7E96 /* MenuItem.swift in Sources */,
+				CAC875AD2192068E00EF7E96 /* NotaAlunoDao.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		43D64CC01B3DA98800E754D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_STICKER_PACK_IDENTIFIER_PREFIX = "";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LLVM_LTO = YES_THIN;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PROVISIONING_PROFILE = "42c765c1-15a8-47dd-aacc-c3b69f7c8493";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43D64CC11B3DA98800E754D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_OPTIMIZATION = space;
+				ASSETCATALOG_COMPILER_STICKER_PACK_IDENTIFIER_PREFIX = "";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_FAST_MATH = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LLVM_LTO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				PROVISIONING_PROFILE = "42c765c1-15a8-47dd-aacc-c3b69f7c8493";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43D64CC31B3DA98800E754D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73AA8756317B4DEBC6D1B05A /* Pods-SEDProfessor.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.3.2;
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NG8DB6RW5R;
+				INFOPLIST_FILE = "$(SRCROOT)/SEDProfessor/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.3.2;
+				OTHER_CODE_SIGN_FLAGS = "";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -D DEBUG";
+				PRODUCT_BUNDLE_IDENTIFIER = br.gov.sp.educacao.SEDProfessor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43D64CC41B3DA98800E754D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D29EB0303A13426232BCCA9 /* Pods-SEDProfessor.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.3.2;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = NG8DB6RW5R;
+				INFOPLIST_FILE = "$(SRCROOT)/SEDProfessor/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.3.2;
+				OTHER_CODE_SIGN_FLAGS = "";
+				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\"";
+				PRODUCT_BUNDLE_IDENTIFIER = br.gov.sp.educacao.SEDProfessor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_INCLUDE_PATHS = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43D64C9E1B3DA98800E754D8 /* Build configuration list for PBXProject "SEDProfessor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D64CC01B3DA98800E754D8 /* Debug */,
+				43D64CC11B3DA98800E754D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43D64CC21B3DA98800E754D8 /* Build configuration list for PBXNativeTarget "SEDProfessor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43D64CC31B3DA98800E754D8 /* Debug */,
+				43D64CC41B3DA98800E754D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CAC875972192068D00EF7E96 /* DiarioClasse.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CAC875982192068E00EF7E96 /* Model.xcdatamodel */,
+			);
+			currentVersion = CAC875982192068E00EF7E96 /* Model.xcdatamodel */;
+			path = DiarioClasse.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 43D64C9B1B3DA98800E754D8 /* Project object */;
+}

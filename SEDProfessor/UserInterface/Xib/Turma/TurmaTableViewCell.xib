@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TurmaTableViewCell" customModule="SEDProfessor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="96"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8 Série C Manhã" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" minimumFontSize="15" translatesAutoresizingMaskIntoConstraints="NO" id="VZU-BK-c6D">
+                    <rect key="frame" x="27" y="8" width="546" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="8GT-ED-QwQ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                    <color key="textColor" red="0.1529411765" green="0.58039215690000001" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Português" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="tgg-hI-rs1">
+                    <rect key="frame" x="27" y="40" width="546" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="oam-oD-o4F"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ensino Fundamental" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="UeY-hL-9oA">
+                    <rect key="frame" x="27" y="68" width="546" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="1Na-pJ-al1"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="UeY-hL-9oA" firstAttribute="top" secondItem="tgg-hI-rs1" secondAttribute="bottom" constant="8" id="8a0-sU-RJN"/>
+                <constraint firstItem="UeY-hL-9oA" firstAttribute="leading" secondItem="tgg-hI-rs1" secondAttribute="leading" id="E07-7w-Ig7"/>
+                <constraint firstAttribute="bottom" secondItem="UeY-hL-9oA" secondAttribute="bottom" constant="8" id="YON-RS-8tD"/>
+                <constraint firstItem="VZU-BK-c6D" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leadingMargin" constant="7" id="ash-9m-h43"/>
+                <constraint firstAttribute="trailingMargin" secondItem="VZU-BK-c6D" secondAttribute="trailing" constant="7" id="de5-Td-zoj"/>
+                <constraint firstItem="tgg-hI-rs1" firstAttribute="top" secondItem="VZU-BK-c6D" secondAttribute="bottom" constant="8" id="jBx-Hp-eJK"/>
+                <constraint firstItem="tgg-hI-rs1" firstAttribute="leading" secondItem="VZU-BK-c6D" secondAttribute="leading" id="kKm-iM-pf8"/>
+                <constraint firstItem="tgg-hI-rs1" firstAttribute="trailing" secondItem="VZU-BK-c6D" secondAttribute="trailing" id="pKs-8l-mxm"/>
+                <constraint firstItem="UeY-hL-9oA" firstAttribute="trailing" secondItem="tgg-hI-rs1" secondAttribute="trailing" id="pmr-eW-GhT"/>
+                <constraint firstItem="VZU-BK-c6D" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="w7D-4y-dQL"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="disciplinaLabel" destination="tgg-hI-rs1" id="p2v-ut-08A"/>
+                <outlet property="nomeLabel" destination="VZU-BK-c6D" id="Ofo-1q-pLY"/>
+                <outlet property="tipoDeEnsinoLabel" destination="UeY-hL-9oA" id="2gc-wo-TYP"/>
+            </connections>
+            <point key="canvasLocation" x="435.19999999999999" y="-12.561576354679804"/>
+        </view>
+    </objects>
+</document>

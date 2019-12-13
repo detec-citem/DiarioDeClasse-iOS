@@ -1,0 +1,348 @@
+
+/* Class = "UIButton"; normalTitle = "Salvar"; ObjectID = "0DZ-EB-4eE"; */
+"0DZ-EB-4eE.normalTitle" = "Salvar";
+
+/* Class = "UISegmentedControl"; 0dL-Jo-oy3.segmentTitles[0] = "Avaliação"; ObjectID = "0dL-Jo-oy3"; */
+"0dL-Jo-oy3.segmentTitles[0]" = "Avaliação";
+
+/* Class = "UISegmentedControl"; 0dL-Jo-oy3.segmentTitles[1] = "Atividade"; ObjectID = "0dL-Jo-oy3"; */
+"0dL-Jo-oy3.segmentTitles[1]" = "Atividade";
+
+/* Class = "UISegmentedControl"; 0dL-Jo-oy3.segmentTitles[2] = "Trabalho"; ObjectID = "0dL-Jo-oy3"; */
+"0dL-Jo-oy3.segmentTitles[2]" = "Trabalho";
+
+/* Class = "UISegmentedControl"; 0dL-Jo-oy3.segmentTitles[3] = "Outros"; ObjectID = "0dL-Jo-oy3"; */
+"0dL-Jo-oy3.segmentTitles[3]" = "Outros";
+
+/* Class = "UINavigationItem"; title = "Di@rio de Classe"; ObjectID = "1P9-HR-onY"; */
+"1P9-HR-onY.title" = "Di@rio de Classe";
+
+/* Class = "UILabel"; text = "Registro de Aula"; ObjectID = "1UY-yR-7al"; */
+"1UY-yR-7al.text" = "Registro de Aula";
+
+/* Class = "UILabel"; text = "Série / Disciplina"; ObjectID = "1o2-2v-cLl"; */
+"1o2-2v-cLl.text" = "Série / Disciplina";
+
+/* Class = "UILabel"; text = "Data:"; ObjectID = "2To-xg-UXj"; */
+"2To-xg-UXj.text" = "Data:";
+
+/* Class = "UIButton"; normalTitle = "Registrar"; ObjectID = "34O-gN-ucn"; */
+"34O-gN-ucn.normalTitle" = "Registrar";
+
+/* Class = "UIButton"; normalTitle = "Editar"; ObjectID = "3PQ-fX-hN5"; */
+"3PQ-fX-hN5.normalTitle" = "Editar";
+
+/* Class = "UINavigationItem"; title = "Di@rio de Classe"; ObjectID = "3xH-RH-Cb9"; */
+"3xH-RH-Cb9.title" = "Di@rio de Classe";
+
+/* Class = "UILabel"; text = "Série / Disciplina"; ObjectID = "4BO-7b-5JB"; */
+"4BO-7b-5JB.text" = "Série / Disciplina";
+
+/* Class = "UINavigationItem"; title = "Di@rio de Classe"; ObjectID = "4jc-h9-3KI"; */
+"4jc-h9-3KI.title" = "Di@rio de Classe";
+
+/* Class = "UINavigationItem"; title = "Avaliações"; ObjectID = "5qU-N2-uu8"; */
+"5qU-N2-uu8.title" = "Avaliações";
+
+/* Class = "UILabel"; text = "8 Série C Manhã"; ObjectID = "5wL-zU-Ijo"; */
+"5wL-zU-Ijo.text" = "8 Série C Manhã";
+
+/* Class = "UILabel"; text = "Data:"; ObjectID = "65a-W6-etL"; */
+"65a-W6-etL.text" = "Data:";
+
+/* Class = "UILabel"; text = "1/2"; ObjectID = "6Do-co-X79"; */
+"6Do-co-X79.text" = "1/2";
+
+/* Class = "UILabel"; text = "00:00 as 00:00"; ObjectID = "6an-Oy-g4q"; */
+"6an-Oy-g4q.text" = "00:00 as 00:00";
+
+/* Class = "UILabel"; text = "Data:"; ObjectID = "7Fr-le-hfR"; */
+"7Fr-le-hfR.text" = "Data:";
+
+/* Class = "UILabel"; text = "Ensino Fundamental"; ObjectID = "7pX-OJ-K4G"; */
+"7pX-OJ-K4G.text" = "Ensino Fundamental";
+
+/* Class = "UILabel"; text = "Série / Disciplina"; ObjectID = "7uv-GH-ZQ7"; */
+"7uv-GH-ZQ7.text" = "Série / Disciplina";
+
+/* Class = "UILabel"; text = "Não possui turmas para esse ano letivo"; ObjectID = "82F-WZ-0wr"; */
+"82F-WZ-0wr.text" = "Não possui turmas para esse ano letivo";
+
+/* Class = "UILabel"; text = "Registro de Aulas"; ObjectID = "86Y-h6-W0R"; */
+"86Y-h6-W0R.text" = "Registro de Aulas";
+
+/* Class = "UILabel"; text = "Ensino Fundamental"; ObjectID = "8Ih-jt-Gow"; */
+"8Ih-jt-Gow.text" = "Ensino Fundamental";
+
+/* Class = "UILabel"; text = "8 Série C Manhã"; ObjectID = "A1R-47-pFV"; */
+"A1R-47-pFV.text" = "8 Série C Manhã";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "BLv-mm-Fsh"; */
+"BLv-mm-Fsh.text" = "Title";
+
+/* Class = "UIBarButtonItem"; title = "Anterior"; ObjectID = "BQc-rn-bI0"; */
+"BQc-rn-bI0.title" = "Anterior";
+
+/* Class = "UILabel"; text = "Matrícula"; ObjectID = "Bpr-QY-ddg"; */
+"Bpr-QY-ddg.text" = "Matrícula";
+
+/* Class = "UILabel"; text = "Hoje no magistério, professores contam como trocaram de profissão."; ObjectID = "Czg-Hv-Ado"; */
+"Czg-Hv-Ado.text" = "Hoje no magistério, professores contam como trocaram de profissão.";
+
+/* Class = "UILabel"; text = "Ensino Fundamental"; ObjectID = "DEu-dv-HPa"; */
+"DEu-dv-HPa.text" = "Ensino Fundamental";
+
+/* Class = "UINavigationItem"; title = "Lançamento"; ObjectID = "DKs-xl-tOH"; */
+"DKs-xl-tOH.title" = "Lançamento";
+
+/* Class = "UILabel"; text = "Frequencia Consulta"; ObjectID = "DcK-il-2OU"; */
+"DcK-il-2OU.text" = "Frequencia Consulta";
+
+/* Class = "UILabel"; text = "Matrícula"; ObjectID = "Dwi-xd-Smg"; */
+"Dwi-xd-Smg.text" = "Matrícula";
+
+/* Class = "UIButton"; normalTitle = "Confirmar"; ObjectID = "E36-6K-Rc7"; */
+"E36-6K-Rc7.normalTitle" = "Confirmar";
+
+/* Class = "UILabel"; text = "Atividade:"; ObjectID = "Efa-uZ-ZcC"; */
+"Efa-uZ-ZcC.text" = "Atividade:";
+
+/* Class = "UILabel"; text = "Nota"; ObjectID = "F2h-7l-D0x"; */
+"F2h-7l-D0x.text" = "Nota";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "Fv8-uG-XDd"; */
+"Fv8-uG-XDd.title" = " ";
+
+/* Class = "UILabel"; text = "8 Série C Manhã"; ObjectID = "G7L-tz-YZQ"; */
+"G7L-tz-YZQ.text" = "8 Série C Manhã";
+
+/* Class = "UILabel"; text = "Série / Disciplina"; ObjectID = "GXZ-hS-Gpi"; */
+"GXZ-hS-Gpi.text" = "Série / Disciplina";
+
+/* Class = "UILabel"; text = "Bimestre:"; ObjectID = "Grv-I2-Ubh"; */
+"Grv-I2-Ubh.text" = "Bimestre:";
+
+/* Class = "UILabel"; text = "Detail"; ObjectID = "HSb-8Y-bkW"; */
+"HSb-8Y-bkW.text" = "Detail";
+
+/* Class = "UILabel"; text = "Conteúdos/Habilidades"; ObjectID = "Ht4-Tn-LnZ"; */
+"Ht4-Tn-LnZ.text" = "Conteúdos/Habilidades";
+
+/* Class = "UILabel"; text = "Vale nota:"; ObjectID = "HyE-3I-Qj1"; */
+"HyE-3I-Qj1.text" = "Vale nota:";
+
+/* Class = "UILabel"; text = "Responsáveis"; ObjectID = "IHU-sO-CxQ"; */
+"IHU-sO-CxQ.text" = "Responsáveis";
+
+/* Class = "UIBarButtonItem"; title = "Salvar"; ObjectID = "JFM-VP-K0b"; */
+"JFM-VP-K0b.title" = "Salvar";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "Jh9-tc-0MA"; */
+"Jh9-tc-0MA.text" = "Status";
+
+/* Class = "UILabel"; text = "Avaliações"; ObjectID = "Le9-Rw-oO1"; */
+"Le9-Rw-oO1.text" = "Avaliações";
+
+/* Class = "UILabel"; text = "1 - Vinicius Campos"; ObjectID = "MDa-v1-uVp"; */
+"MDa-v1-uVp.text" = "1 - Vinicius Campos";
+
+/* Class = "UILabel"; text = "Nome Aluno"; ObjectID = "MDg-Wz-5oK"; */
+"MDg-Wz-5oK.text" = "Nome Aluno";
+
+/* Class = "UILabel"; text = "Status"; ObjectID = "NPP-6M-qjn"; */
+"NPP-6M-qjn.text" = "Status";
+
+/* Class = "UILabel"; text = "00:00 as 00:00"; ObjectID = "O6i-pT-wgD"; */
+"O6i-pT-wgD.text" = "00:00 as 00:00";
+
+/* Class = "UILabel"; text = "Horário:"; ObjectID = "ON1-Cx-by0"; */
+"ON1-Cx-by0.text" = "Horário:";
+
+/* Class = "UIBarButtonItem"; title = "Cancelar"; ObjectID = "OdT-Rb-HQP"; */
+"OdT-Rb-HQP.title" = "Cancelar";
+
+/* Class = "UILabel"; text = "Não possui turmas para esse ano letivo"; ObjectID = "Ouo-hZ-3it"; */
+"Ouo-hZ-3it.text" = "Não possui turmas para esse ano letivo";
+
+/* Class = "UILabel"; text = "Pai"; ObjectID = "P7C-F3-J3Y"; */
+"P7C-F3-J3Y.text" = "Pai";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "PDq-NS-qK9"; */
+"PDq-NS-qK9.text" = "Label";
+
+/* Class = "UILabel"; text = "Não possui turmas para esse ano letivo"; ObjectID = "PPG-SE-1Lq"; */
+"PPG-SE-1Lq.text" = "Não possui turmas para esse ano letivo";
+
+/* Class = "UINavigationItem"; title = "Di@rio de Classe"; ObjectID = "QFg-DD-RR1"; */
+"QFg-DD-RR1.title" = "Di@rio de Classe";
+
+/* Class = "UIBarButtonItem"; title = "Confirmar"; ObjectID = "QdQ-qD-DI2"; */
+"QdQ-qD-DI2.title" = "Confirmar";
+
+/* Class = "UILabel"; text = "Frequências"; ObjectID = "Qvc-PU-reR"; */
+"Qvc-PU-reR.text" = "Frequências";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "RS4-cT-jPt"; */
+"RS4-cT-jPt.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Consulta Avaliações"; ObjectID = "SS4-ad-7zP"; */
+"SS4-ad-7zP.text" = "Consulta Avaliações";
+
+/* Class = "UIBarButtonItem"; title = "Próximo"; ObjectID = "SiI-NH-9XW"; */
+"SiI-NH-9XW.title" = "Próximo";
+
+/* Class = "UILabel"; text = "Data:"; ObjectID = "Soa-S8-Rdi"; */
+"Soa-S8-Rdi.text" = "Data:";
+
+/* Class = "UILabel"; text = "Tipo de Avaliação:"; ObjectID = "U0p-9L-ny9"; */
+"U0p-9L-ny9.text" = "Tipo de Avaliação:";
+
+/* Class = "UILabel"; text = "Ensino Fundamental"; ObjectID = "UI4-kr-EOq"; */
+"UI4-kr-EOq.text" = "Ensino Fundamental";
+
+/* Class = "UITabBarItem"; title = "Lançamento"; ObjectID = "UOz-jD-vPn"; */
+"UOz-jD-vPn.title" = "Lançamento";
+
+/* Class = "UIBarButtonItem"; title = "Próximo"; ObjectID = "Uvb-BV-1ug"; */
+"Uvb-BV-1ug.title" = "Próximo";
+
+/* Class = "UITabBarItem"; title = "Lançamento"; ObjectID = "V8m-4z-pTn"; */
+"V8m-4z-pTn.title" = "Lançamento";
+
+/* Class = "UILabel"; text = "Ensino Fundamental"; ObjectID = "VCM-QQ-Gef"; */
+"VCM-QQ-Gef.text" = "Ensino Fundamental";
+
+/* Class = "UILabel"; text = "Série / Disciplina"; ObjectID = "VFf-o4-Uyj"; */
+"VFf-o4-Uyj.text" = "Série / Disciplina";
+
+/* Class = "UILabel"; text = "8 Série C Manhã"; ObjectID = "VnI-2C-ehV"; */
+"VnI-2C-ehV.text" = "8 Série C Manhã";
+
+/* Class = "UILabel"; text = "00:00 as 00:00"; ObjectID = "WP8-c3-Hza"; */
+"WP8-c3-Hza.text" = "00:00 as 00:00";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "WhP-fX-Xs0"; */
+"WhP-fX-Xs0.text" = "Login";
+
+/* Class = "UINavigationItem"; title = "Di@rio de Classe"; ObjectID = "XN0-Al-or0"; */
+"XN0-Al-or0.title" = "Di@rio de Classe";
+
+/* Class = "UILabel"; text = "Senha"; ObjectID = "Xl6-RH-AxD"; */
+"Xl6-RH-AxD.text" = "Senha";
+
+/* Class = "UILabel"; text = "Ensino Fundamental"; ObjectID = "Zc2-Jy-dHd"; */
+"Zc2-Jy-dHd.text" = "Ensino Fundamental";
+
+/* Class = "UILabel"; text = "Nome Aluno"; ObjectID = "a2P-4S-Fbz"; */
+"a2P-4S-Fbz.text" = "Nome Aluno";
+
+/* Class = "UINavigationItem"; title = "Lançamento"; ObjectID = "akP-sX-iXi"; */
+"akP-sX-iXi.title" = "Lançamento";
+
+/* Class = "UILabel"; text = "Turmas"; ObjectID = "b8K-k2-Snz"; */
+"b8K-k2-Snz.text" = "Turmas";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "c0h-0X-pVh"; */
+"c0h-0X-pVh.text" = "0";
+
+/* Class = "UILabel"; text = "Turmas"; ObjectID = "cI3-3c-QCv"; */
+"cI3-3c-QCv.text" = "Turmas";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "cZE-L1-pJe"; */
+"cZE-L1-pJe.title" = " ";
+
+/* Class = "UITabBarItem"; title = "Consulta"; ObjectID = "cde-h8-46W"; */
+"cde-h8-46W.title" = "Consulta";
+
+/* Class = "UILabel"; text = "Não possui turmas para esse ano letivo"; ObjectID = "cjF-7p-XdI"; */
+"cjF-7p-XdI.text" = "Não possui turmas para esse ano letivo";
+
+/* Class = "UILabel"; text = "1 - Vinicius Campos"; ObjectID = "cxI-pC-dF6"; */
+"cxI-pC-dF6.text" = "1 - Vinicius Campos";
+
+/* Class = "UILabel"; text = "8 Série C Manhã"; ObjectID = "dfo-wc-G7y"; */
+"dfo-wc-G7y.text" = "8 Série C Manhã";
+
+/* Class = "UILabel"; text = "00:00 as 00:00"; ObjectID = "f1G-Fh-CdR"; */
+"f1G-Fh-CdR.text" = "00:00 as 00:00";
+
+/* Class = "UILabel"; text = "29/06/2015"; ObjectID = "f8W-YW-vL4"; */
+"f8W-YW-vL4.text" = "29/06/2015";
+
+/* Class = "UILabel"; text = "Lançamento Avaliações"; ObjectID = "fG7-In-rYJ"; */
+"fG7-In-rYJ.text" = "Lançamento Avaliações";
+
+/* Class = "UILabel"; text = "8 Série C Manhã"; ObjectID = "hgR-Zk-Ztn"; */
+"hgR-Zk-Ztn.text" = "8 Série C Manhã";
+
+/* Class = "UILabel"; text = "00:00 as 00:00"; ObjectID = "hlg-Vy-2Ee"; */
+"hlg-Vy-2Ee.text" = "00:00 as 00:00";
+
+/* Class = "UIButton"; normalTitle = "29/06/2015"; ObjectID = "jOw-dW-iar"; */
+"jOw-dW-iar.normalTitle" = "29/06/2015";
+
+/* Class = "UILabel"; text = "Série / Disciplina"; ObjectID = "jvZ-j9-gkq"; */
+"jvZ-j9-gkq.text" = "Série / Disciplina";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "m4Q-ua-qCb"; */
+"m4Q-ua-qCb.text" = "Title";
+
+/* Class = "UITextField"; text = "11:00 - 12:00"; ObjectID = "mD1-Qv-aFc"; */
+"mD1-Qv-aFc.text" = "11:00 - 12:00";
+
+/* Class = "UILabel"; text = "Observações"; ObjectID = "mpk-8Q-fKx"; */
+"mpk-8Q-fKx.text" = "Observações";
+
+/* Class = "UINavigationItem"; title = "Vídeo"; ObjectID = "nPj-4o-d8u"; */
+"nPj-4o-d8u.title" = "Vídeo";
+
+/* Class = "UITabBarItem"; title = "Consulta"; ObjectID = "nvT-le-hLn"; */
+"nvT-le-hLn.title" = "Consulta";
+
+/* Class = "UILabel"; text = "Não possui turmas para esse ano letivo"; ObjectID = "oPR-IM-jDe"; */
+"oPR-IM-jDe.text" = "Não possui turmas para esse ano letivo";
+
+/* Class = "UIButton"; normalTitle = "T"; ObjectID = "p5K-aT-lIC"; */
+"p5K-aT-lIC.normalTitle" = "T";
+
+/* Class = "UILabel"; text = "Bimestre:"; ObjectID = "pbe-ll-NkF"; */
+"pbe-ll-NkF.text" = "Bimestre:";
+
+/* Class = "UILabel"; text = "00:00 as 00:00"; ObjectID = "qtO-rc-34t"; */
+"qtO-rc-34t.text" = "00:00 as 00:00";
+
+/* Class = "UILabel"; text = "Período:"; ObjectID = "qys-z8-MMA"; */
+"qys-z8-MMA.text" = "Período:";
+
+/* Class = "UILabel"; text = "Não possui turmas para esse ano letivo"; ObjectID = "s7t-Vm-v3Y"; */
+"s7t-Vm-v3Y.text" = "Não possui turmas para esse ano letivo";
+
+/* Class = "UIButton"; normalTitle = "29/06/2015"; ObjectID = "tE0-AK-jwY"; */
+"tE0-AK-jwY.normalTitle" = "29/06/2015";
+
+/* Class = "UILabel"; text = "Turmas"; ObjectID = "uFu-ui-jku"; */
+"uFu-ui-jku.text" = "Turmas";
+
+/* Class = "UILabel"; text = "Mãe"; ObjectID = "uyz-rc-cY3"; */
+"uyz-rc-cY3.text" = "Mãe";
+
+/* Class = "UILabel"; text = "Turmas"; ObjectID = "vcJ-NV-cTe"; */
+"vcJ-NV-cTe.text" = "Turmas";
+
+/* Class = "UILabel"; text = "Nome:"; ObjectID = "vsf-A9-Hz4"; */
+"vsf-A9-Hz4.text" = "Nome:";
+
+/* Class = "UILabel"; text = "Frequencia Lançamento"; ObjectID = "wPA-4T-PVv"; */
+"wPA-4T-PVv.text" = "Frequencia Lançamento";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "wbU-ME-iwU"; */
+"wbU-ME-iwU.title" = " ";
+
+/* Class = "UINavigationItem"; title = "Di@rio de Classe"; ObjectID = "xJx-gl-0wa"; */
+"xJx-gl-0wa.title" = "Di@rio de Classe";
+
+/* Class = "UIBarButtonItem"; title = "Anterior"; ObjectID = "yEp-4X-rCS"; */
+"yEp-4X-rCS.title" = "Anterior";
+
+/* Class = "UILabel"; text = "Faltas no período:"; ObjectID = "yeK-Sw-f1a"; */
+"yeK-Sw-f1a.text" = "Faltas no período:";
